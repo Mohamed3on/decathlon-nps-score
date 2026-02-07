@@ -1,4 +1,18 @@
 (() => {
+  const CACHE_TTL = 30 * 24 * 60 * 60 * 1000; // 30 days
+  const cacheGet = (key) => {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const { data, ts } = JSON.parse(raw);
+      if (Date.now() - ts > CACHE_TTL) { localStorage.removeItem(key); return null; }
+      return data;
+    } catch { return null; }
+  };
+  const cacheSet = (key, data) => {
+    try { localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })); } catch {}
+  };
+
   const addCommas = (x) => String(x).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
   const getLocale = () => {
@@ -15,6 +29,10 @@
   };
 
   const fetchScore = async (locale, modelId) => {
+    const cacheKey = `nps_score_${modelId}`;
+    const cached = cacheGet(cacheKey);
+    if (cached) return cached;
+
     const domain = locale === 'en-GB' ? 'co.uk' : locale.split('-')[0];
     const res = await fetch(
       `https://www.decathlon.${domain}/api/reviews/${locale}/reviews-stats/${modelId}/product?nbItemsPerPage=0&page=0`
@@ -34,7 +52,9 @@
 
     const nps = ((five - one) / total) * 100;
     const score = Math.round((five - one) * ((five - one) / total));
-    return { score, nps };
+    const result = { score, nps };
+    cacheSet(cacheKey, result);
+    return result;
   };
 
   const npsColor = (nps) => {

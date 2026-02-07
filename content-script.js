@@ -1,4 +1,18 @@
 (() => {
+  const CACHE_TTL = 30 * 24 * 60 * 60 * 1000; // 30 days
+  const cacheGet = (key) => {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const { data, ts } = JSON.parse(raw);
+      if (Date.now() - ts > CACHE_TTL) { localStorage.removeItem(key); return null; }
+      return data;
+    } catch { return null; }
+  };
+  const cacheSet = (key, data) => {
+    try { localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })); } catch {}
+  };
+
   const addCommas = (x) => x.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
   const npsColor = (nps) => {
@@ -20,13 +34,19 @@
   };
 
   const fetchStats = async (locale, modelId) => {
+    const cacheKey = `nps_stats_${modelId}`;
+    const cached = cacheGet(cacheKey);
+    if (cached) return cached;
+
     const domain = locale === 'en-GB' ? 'co.uk' : locale.split('-')[0];
     const res = await fetch(
       `https://www.decathlon.${domain}/api/reviews/${locale}/reviews-stats/${modelId}/product?nbItemsPerPage=0&page=0`
     );
     if (!res.ok) return null;
     const json = await res.json();
-    return json?.stats ?? null;
+    const stats = json?.stats ?? null;
+    if (stats) cacheSet(cacheKey, stats);
+    return stats;
   };
 
   const getScoreFromStats = (stats) => {
@@ -46,11 +66,11 @@
 
   const appendScore = (productInfo, { score, nps }) => {
     const reviewDiv = productInfo.querySelector('.review');
-    if (!reviewDiv) return;
+    if (!reviewDiv || reviewDiv.querySelector('.nps-score-badge')) return;
     const separator = document.createElement('div');
     separator.className = 'review__vertical-line';
     const badge = document.createElement('span');
-    badge.className = 'vp-body-s';
+    badge.className = 'vp-body-s nps-score-badge';
     badge.style.cssText = `color: ${npsColor(nps)}; font-weight: 600;`;
     badge.textContent = `${addCommas(String(score))} (${Math.round(nps)}%)`;
     reviewDiv.appendChild(separator);
@@ -77,7 +97,7 @@
       const pct = (attr.value / 5) * 100;
       const hue = Math.min(120, Math.max(0, (pct - 50) * 3));
       html += `<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
-        <span style="width:130px;flex-shrink:0;font-size:12px">${attr.label}</span>
+        <span style="width:170px;flex-shrink:0;font-size:12px;overflow-wrap:break-word">${attr.label}</span>
         <div style="flex:1;height:6px;background:#e0e0e0;border-radius:3px;overflow:hidden">
           <div style="width:${pct}%;height:100%;background:hsl(${hue},70%,40%);border-radius:3px"></div>
         </div>
@@ -154,15 +174,30 @@
     sizometer.replaceWith(wrapper);
   };
 
+  let generation = 0;
+
+  const cleanup = () => {
+    document.querySelectorAll('.nps-insights').forEach(el => el.remove());
+    document.querySelectorAll('.nps-score-badge').forEach(el => {
+      const sep = el.previousElementSibling;
+      if (sep?.classList.contains('review__vertical-line')) sep.remove();
+      el.remove();
+    });
+  };
+
   const init = async () => {
     const locale = getLocale();
     const modelId = extractModelId();
     if (!locale || !modelId) return;
 
-    const waitFor = (sel) => new Promise((resolve) => {
+    const gen = ++generation;
+    cleanup();
+
+    const waitFor = (sel) => new Promise((resolve, reject) => {
       const el = document.querySelector(sel);
       if (el) return resolve(el);
       const obs = new MutationObserver(() => {
+        if (gen !== generation) { obs.disconnect(); return reject('stale'); }
         const el = document.querySelector(sel);
         if (el) { obs.disconnect(); resolve(el); }
       });
@@ -174,7 +209,7 @@
       fetchStats(locale, modelId),
     ]);
 
-    if (!stats) return;
+    if (gen !== generation || !stats) return;
     const scoreData = getScoreFromStats(stats);
     if (scoreData) appendScore(productInfo, scoreData);
     renderInsights(productInfo, stats);

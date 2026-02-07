@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Decathlon NPS Score",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Shows NPS-like score for Decathlon products (5-star % minus 1-star %)",
+  "permissions": ["webNavigation", "scripting"],
   "host_permissions": [
     "*://*.decathlon.de/*",
     "*://*.decathlon.co.uk/*"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.decathlon.de/p/*", "*://*.decathlon.co.uk/p/*"],
