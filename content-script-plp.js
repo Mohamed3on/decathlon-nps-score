@@ -72,22 +72,17 @@
 
   const sortGrid = () => {
     const grid = document.querySelector('ul.product-grid');
-    console.log('[NPS] sortGrid, grid found:', !!grid);
     if (!grid) return;
     const items = [...grid.children];
-    console.log('[NPS] items to sort:', items.length);
     const scores = items.map(li => {
       const el = li.querySelector('[data-nps]');
       const val = el?.getAttribute('data-nps');
-      console.log('[NPS] li score:', val, li.querySelector('.product-card-details__item__title')?.textContent?.trim().slice(0, 30));
       return { li, score: val != null ? parseFloat(val) : -Infinity };
     });
     scores.sort((a, b) => b.score - a.score);
-    console.log('[NPS] sorted order:', scores.map(s => s.score));
     sorting = true;
     for (const { li } of scores) grid.appendChild(li);
     sorting = false;
-    console.log('[NPS] sort done');
   };
 
   const locale = getLocale();

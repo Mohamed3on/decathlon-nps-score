@@ -1,18 +1,18 @@
-# Decathlon NPS Score
+# Product NPS Score
 
-Chrome extension that adds NPS-like scores to Decathlon product pages.
+Chrome extension that adds NPS-like scores and review insights to Decathlon, Uniqlo, IKEA, and dm.de product pages.
 
 ## What it does
 
 **Product Listing Pages (PLP/Search):**
-- Fetches review stats for each product card via Decathlon's API
+- Fetches review stats for each product card via the retailer API
 - Displays a colored score badge next to the star rating
 - Color gradient from red (poor) → yellow → green (excellent) based on NPS %
 
 **Product Detail Pages (PDP):**
 - NPS score badge next to the star rating
 - Review insights panel: recommendation %, attribute ratings with colored bars
-- Fit distribution breakdown replacing the default sizometer
+- Rating distribution breakdown for deeper review context
 
 ## Score Calculation
 
