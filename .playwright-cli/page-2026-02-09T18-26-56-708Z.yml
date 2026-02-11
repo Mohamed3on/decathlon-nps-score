@@ -1,0 +1,198 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Hauptnavigation" [ref=e3] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e4] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e5] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e9]:
+      - generic [ref=e10]:
+        - link "Nachhaltigkeit" [ref=e11] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e12] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e13] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e14] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e15] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e16] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - link "PAYBACK" [ref=e19] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e20]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e21]:
+          - link "glückskind" [ref=e22] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e23]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e24]:
+          - link "alverde Magazin" [ref=e25] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e26]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e27]:
+          - link "dmLive" [ref=e28] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e29]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e32]:
+      - generic:
+        - link "dm Startseite":
+          - /url: /
+      - generic [ref=e37]:
+        - combobox "Suchen und finden" [ref=e38]
+        - generic:
+          - generic: Suchen und finden
+          - button "Suche absenden" [ref=e39] [cursor=pointer]:
+            - img
+      - navigation "Haupt" [ref=e40]:
+        - list [ref=e41]:
+          - listitem:
+            - generic:
+              - link "dm-Märkte":
+                - /url: /store
+          - listitem:
+            - generic:
+              - link "Meine Merkliste & Meine Produkte":
+                - /url: /shopping-list
+          - listitem:
+            - generic:
+              - button
+          - listitem
+          - listitem
+  - generic [ref=e43]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e44] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img
+        - paragraph [ref=e47]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e48] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img
+        - paragraph [ref=e51]:
+          - generic [ref=e52]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e53] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img
+        - paragraph [ref=e56]: Dauerpreis - dauerhaft günstig einkaufen
+  - main [ref=e57]:
+    - navigation "Breadcrumb" [ref=e61]:
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - link "Startseite" [ref=e64] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e65]:
+            - img
+        - listitem [ref=e66]:
+          - link "Baby & Kind" [ref=e67] [cursor=pointer]:
+            - /url: /baby-und-kind
+          - generic [ref=e68]:
+            - img
+        - listitem [ref=e69]:
+          - link "Windeln" [ref=e70] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln
+          - generic [ref=e71]:
+            - img
+        - listitem [ref=e72]:
+          - link "Einwegwindeln" [ref=e73] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln/einwegwindeln
+    - generic [ref=e76]:
+      - heading "Windelgröße 4" [level=1] [ref=e80]
+      - generic [ref=e85]:
+        - heading "Windeln Größe 4 - Für eine sorgenfreie Zeit mit Deinem Baby" [level=2] [ref=e86]
+        - paragraph [ref=e87]:
+          - text: Als Eltern eines nun schon etwas größeren Babys möchtet Ihr nur das Beste für Euer Kind. Eine der wichtigsten Anschaffungen sind Windeln. Doch welche Größe ist die richtige? In dieser Kategorie findest Du
+          - strong [ref=e88]: Windeln in Größe 4
+          - text: ", die perfekt auf die Bedürfnisse Deines Babys abgestimmt sind."
+        - paragraph [ref=e89]:
+          - text: Windeln in Größe 4 eignen sich für Babys mit einem
+          - strong [ref=e90]: Gewicht von 8 bis 15 Kilogramm
+          - text: und sind somit ideal für Kinder
+          - strong [ref=e91]: ab dem sechsten Lebensmonat bis hin zum zweiten Lebensjahr.
+          - text: In dieser Zeit wachsen Babys schnell und benötigen daher regelmäßig neue Windeln. Mit den Windeln der Größe 4 bist Du immer auf der sicheren Seite und kannst Dich auf eine sorgenfreie Zeit mit Deinem Baby freuen.
+        - paragraph [ref=e92]:
+          - text: Ein Problem, das viele Eltern kennen, ist das Auslaufen der Windeln. Doch mit den Windeln in Größe 4 gehört dieses Problem der Vergangenheit an. Auch die
+          - strong [ref=e93]: Passform
+          - text: der Windeln ist perfekt auf die Bedürfnisse von Babys abgestimmt. Durch die
+          - strong [ref=e94]: elastischen Bündchen
+          - text: an den Beinen und am Bauch sitzen die Windeln perfekt und bieten Deinem Baby somit
+          - strong [ref=e95]: höchsten Tragekomfort.
+        - paragraph [ref=e96]:
+          - text: In dieser Kategorie findest Du Windeln der Größe 4 von verschiedenen
+          - strong [ref=e97]: Markenherstellern
+          - text: wie beispielsweise
+          - link "Pampers" [ref=e98] [cursor=pointer]:
+            - /url: /marken/pampers
+          - text: ","
+          - link "babylove" [ref=e99] [cursor=pointer]:
+            - /url: /marken/babylove/babylove-windeln
+          - text: oder dm. Alle Windeln sind von
+          - strong [ref=e100]: hoher Qualität und bieten höchste Sicherheit
+          - text: für Dein Baby. Zudem findest Du hier auch Windeln in verschiedenen
+          - strong [ref=e101]: Packungsgrößen
+          - text: ", sodass Du immer die passende Menge an Windeln zu Hause hast."
+        - paragraph [ref=e102]:
+          - text: Bestelle bequem die Windeln in Größe 4 und sorge für eine sorgenfreie Zeit mit Deinem Baby. Mit den hochwertigen Windeln bist Du immer auf der sicheren Seite und kannst Dich auf eine
+          - strong [ref=e103]: optimale Passform, höchste Saugfähigkeit und beste Hautverträglichkeit
+          - text: verlassen.
+      - generic [ref=e107]:
+        - group [ref=e109]:
+          - generic "Warum sind Windeln in Größe 4 wichtig?" [ref=e110] [cursor=pointer]:
+            - heading "Warum sind Windeln in Größe 4 wichtig?" [level=3] [ref=e112]
+            - generic [ref=e113]:
+              - img
+        - group [ref=e115]:
+          - generic "Welche Merkmale haben Windeln in Größe 4?" [ref=e116] [cursor=pointer]:
+            - heading "Welche Merkmale haben Windeln in Größe 4?" [level=3] [ref=e118]
+            - generic [ref=e119]:
+              - img
+        - group [ref=e121]:
+          - generic "Welche Marken bieten Windeln in Größe 4 an?" [ref=e122] [cursor=pointer]:
+            - heading "Welche Marken bieten Windeln in Größe 4 an?" [level=3] [ref=e124]
+            - generic [ref=e125]:
+              - img
+      - generic [ref=e130]:
+        - button "Auflistung überspringen" [ref=e131]
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - link "Einwegwindeln" [ref=e137] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln
+              - generic [ref=e139]:
+                - img "Einwegwindeln von Rascals und Babylove" [ref=e142]
+                - paragraph [ref=e144]: Einwegwindeln
+          - listitem [ref=e145]:
+            - link "Windelgröße 3" [ref=e148] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse3-1902142
+              - generic [ref=e150]:
+                - img "Windelgröße 3" [ref=e153]
+                - paragraph [ref=e155]: Windelgröße 3
+          - listitem [ref=e156]:
+            - link "Windelgröße 5" [ref=e159] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse5-1902162
+              - generic [ref=e161]:
+                - img "Windelgröße 5" [ref=e164]
+                - paragraph [ref=e166]: Windelgröße 5
+        - paragraph: Ende der Auflistung
+      - generic [ref=e169]:
+        - heading "Passende Produktkategorien" [level=2] [ref=e172]
+        - navigation "Passende Produktkategorien"

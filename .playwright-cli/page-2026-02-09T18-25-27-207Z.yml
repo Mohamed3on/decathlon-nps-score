@@ -1,0 +1,1097 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic:
+      - link "Hauptnavigation" [ref=e6] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e7] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e12]:
+      - generic [ref=e13]:
+        - link "Nachhaltigkeit" [ref=e14] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e15] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e16] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e17] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e18] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e19] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link "PAYBACK" [ref=e22] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e23]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e24]:
+          - link "glückskind" [ref=e25] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e26]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e27]:
+          - link "alverde Magazin" [ref=e28] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e29]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e30]:
+          - link "dmLive" [ref=e31] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e32]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - link "dm Startseite" [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img
+        - tooltip "dm Startseite":
+          - generic:
+            - paragraph: dm Startseite
+      - generic [ref=e42]:
+        - combobox "Suchen und finden" [ref=e43]
+        - generic:
+          - generic: Suchen und finden
+          - button "Suche absenden" [ref=e44] [cursor=pointer]:
+            - img
+      - navigation "Haupt" [ref=e45]:
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - generic [ref=e48]:
+              - link "dm-Märkte" [ref=e49] [cursor=pointer]:
+                - /url: /store
+                - img
+              - tooltip "dm-Märkte":
+                - generic:
+                  - paragraph: dm-Märkte
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - link "Meine Merkliste & Meine Produkte" [ref=e52] [cursor=pointer]:
+                - /url: /shopping-list
+                - img
+              - tooltip "Meine Merkliste & Meine Produkte":
+                - generic:
+                  - paragraph: Meine Merkliste & Meine Produkte
+          - listitem [ref=e53]:
+            - generic [ref=e54]:
+              - button [ref=e55] [cursor=pointer]:
+                - img
+              - tooltip "Mein Konto":
+                - generic:
+                  - paragraph: Mein Konto
+          - listitem [ref=e56]:
+            - generic [ref=e58]:
+              - link "Warenkorb" [ref=e59] [cursor=pointer]:
+                - /url: /cart
+                - img
+              - tooltip "Warenkorb":
+                - generic:
+                  - paragraph: Warenkorb
+          - listitem
+    - navigation "Kategorien" [ref=e62]:
+      - list [ref=e63]:
+        - listitem [ref=e64]:
+          - link "Neu" [ref=e65] [cursor=pointer]:
+            - /url: /neu
+        - listitem [ref=e66]:
+          - link "Marken" [ref=e67] [cursor=pointer]:
+            - /url: /marken
+        - listitem [ref=e68]:
+          - link "Make-up" [ref=e69] [cursor=pointer]:
+            - /url: /make-up
+        - listitem [ref=e70]:
+          - link "Pflege & Parfum" [ref=e71] [cursor=pointer]:
+            - /url: /pflege-und-parfum
+        - listitem [ref=e72]:
+          - link "Haare" [ref=e73] [cursor=pointer]:
+            - /url: /haare
+        - listitem [ref=e74]:
+          - link "Gesundheit" [ref=e75] [cursor=pointer]:
+            - /url: /gesundheit
+        - listitem [ref=e76]:
+          - link "Ernährung" [ref=e77] [cursor=pointer]:
+            - /url: /ernaehrung
+        - listitem [ref=e78]:
+          - link "Baby & Kind" [ref=e79] [cursor=pointer]:
+            - /url: /baby-und-kind
+        - listitem [ref=e80]:
+          - link "Haushalt" [ref=e81] [cursor=pointer]:
+            - /url: /haushalt
+        - listitem [ref=e82]:
+          - link "Home & Living" [ref=e83] [cursor=pointer]:
+            - /url: /home-and-living
+        - listitem [ref=e84]:
+          - link "Foto" [ref=e85] [cursor=pointer]:
+            - /url: /foto
+        - listitem [ref=e86]:
+          - link "Tier" [ref=e87] [cursor=pointer]:
+            - /url: /tier
+        - listitem [ref=e88]:
+          - link "Ausverkauf" [ref=e89] [cursor=pointer]:
+            - /url: /ausverkauf
+        - listitem [ref=e90]:
+          - link "Online-Apotheke" [ref=e91] [cursor=pointer]:
+            - /url: /dm-med
+            - generic [ref=e92]:
+              - img
+  - generic [ref=e94]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e95] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - img
+        - paragraph [ref=e98]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e99] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - img
+        - paragraph [ref=e102]:
+          - generic [ref=e103]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e104] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - img
+        - paragraph [ref=e107]: Dauerpreis - dauerhaft günstig einkaufen
+  - img [ref=e111]
+  - main [ref=e118]:
+    - navigation "Breadcrumb" [ref=e122]:
+      - list [ref=e123]:
+        - listitem [ref=e124]:
+          - link "Startseite" [ref=e125] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e126]:
+            - img
+        - listitem [ref=e127]:
+          - link "Baby & Kind" [ref=e128] [cursor=pointer]:
+            - /url: /baby-und-kind
+          - generic [ref=e129]:
+            - img
+        - listitem [ref=e130]:
+          - link "Windeln" [ref=e131] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln
+          - generic [ref=e132]:
+            - img
+        - listitem [ref=e133]:
+          - link "Windel Pants" [ref=e134] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln/windel-pants
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - heading "babylove Baby Pants Premium Junior Gr. 5 (13-18 kg), 20 St" [level=1] [ref=e140]:
+              - link "babylove" [ref=e142] [cursor=pointer]:
+                - /url: /marken/babylove
+              - text: Baby Pants Premium Junior Gr. 5 (13-18 kg), 20 St
+            - link "3.9 von 5 Sternen bei 823 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e145] [cursor=pointer]:
+              - /url: "#dm_bv_container"
+              - generic "3.9 von 5 Sternen bei 823 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e146]:
+                - generic [ref=e147]:
+                  - img [ref=e148]
+                  - img [ref=e149]
+                  - img [ref=e150]
+                  - img [ref=e153]
+                  - img [ref=e154]
+                - generic [ref=e155]: "3.9"
+                - generic [ref=e156]: (823 Bewertungen)
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - paragraph [ref=e160]: Ohne Parfum
+            - generic [ref=e163]:
+              - generic [ref=e164] [cursor=pointer]: Windelgröße
+              - combobox "Windelgröße" [ref=e165] [cursor=pointer]:
+                - option "Größe 5" [selected]
+                - option "Größe 6"
+                - option "Größe 7"
+                - option "Größe 8"
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - button "Anzahl reduzieren" [disabled] [ref=e172]:
+                      - img
+                    - combobox "Anzahl ändern" [disabled] [ref=e173]:
+                      - option "1" [selected]
+                    - button "Anzahl erhöhen" [disabled] [ref=e174]:
+                      - img
+                  - generic [ref=e176]:
+                    - generic [ref=e178]: 4,45 €
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: 20 St (0,22 € je 1 St)
+                      - generic [ref=e181]:
+                        - text: inkl. MwSt. zzgl.
+                        - button "Versand" [ref=e182] [cursor=pointer]
+                - button "dm-Dauerpreis nicht erhöht seit 10.02.2023" [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184]:
+                    - img
+                    - generic [ref=e185]:
+                      - generic [ref=e186]: dm-Dauerpreis
+                      - text: nicht erhöht seit 10.02.2023
+                - button "In den Warenkorb" [disabled] [ref=e189]:
+                  - generic [ref=e190]:
+                    - img
+                  - generic [ref=e191]: In den Warenkorb
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - img
+                  - text: Kostenloser Versand ab 59 € mit dm-Konto
+                - generic [ref=e200]:
+                  - img
+                  - text: Kostenlose Rückgabe auch im dm-Markt
+                - generic [ref=e201]:
+                  - img
+                  - text: Kauf auf Rechnung möglich
+            - generic [ref=e202]:
+              - img
+              - generic [ref=e203]: Du erhältst 2 PAYBACK °Punkte
+            - link "Unser Versprechen, immer günstig einzukaufen, Mehr zur dm Dauerpreis-Garantie" [ref=e211] [cursor=pointer]:
+              - /url: /services/services-im-markt/dm-dauerpreis
+              - generic [ref=e214]:
+                - heading "Unser Versprechen, immer günstig einzukaufen" [level=2] [ref=e215]
+                - paragraph [ref=e218]: Mehr zur dm Dauerpreis-Garantie
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - img "Marke von dm Grafik" [ref=e222]
+              - button "dm glückskind 66 % Weiterempfehlung Babylove Pants Premium Größe 5 94 Teilnehmer August 2025" [ref=e223] [cursor=pointer]:
+                - img "dm glückskind 66 % Weiterempfehlung Babylove Pants Premium Größe 5 94 Teilnehmer August 2025" [ref=e224]
+            - generic [ref=e225]:
+              - button "Auflistung überspringen" [ref=e226]
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e231] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e232]
+                - listitem [ref=e233]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e235] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e236]
+                - listitem [ref=e237]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e239] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e240]
+                - listitem [ref=e241]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e243] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e244]
+                - listitem [ref=e245]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e247] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e248]
+              - paragraph: Ende der Auflistung
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e251] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e252]
+              - listitem [ref=e253]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e254] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e255]
+              - listitem [ref=e256]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e257] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e258]
+              - listitem [ref=e259]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e260] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e261]
+              - listitem [ref=e262]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e263] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e264]
+            - generic [ref=e265]:
+              - button "Produkt merken" [ref=e266] [cursor=pointer]:
+                - img [ref=e268]
+              - button "Produkt teilen" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]:
+                  - img
+        - generic [ref=e272]:
+          - heading "Infos zum Produkt" [level=2] [ref=e274]
+          - generic [ref=e275]:
+            - group [ref=e276]:
+              - generic "Produktbeschreibung" [ref=e277] [cursor=pointer]:
+                - generic [ref=e278]: Produktbeschreibung
+                - generic [ref=e279]:
+                  - img
+              - generic [ref=e281]:
+                - list [ref=e283]:
+                  - listitem [ref=e284]: Windelhöschen für aktive Kids
+                  - listitem [ref=e285]: Einfaches An- und Ausziehen
+                  - listitem [ref=e286]: Bis zu 12 Stunden Schutz
+                  - listitem [ref=e287]: Optimale Bewegungsfreiheit durch Rundum-Stretch
+                  - listitem [ref=e288]: Ohne Lotionen, Parfümen und Naturlatex
+                - generic [ref=e291]: "Die Premium-Pants in der Größe 5 Junior (13-18 kg) von babylove sind perfekt auf die Bedürfnisse aktiver Kinder abgestimmt, die sich frei bewegen und beim Wickeln nicht mehr hinlegen möchten. Mit bis zu 12 Stunden zuverlässigem Auslaufschutz bieten sie Eltern und Kindern ein beruhigendes Gefühl. Der flexible Sitz und das innovative ComfortFit mit sicheren Beinabschlüssen und einem breiteren Saugkern garantieren optimalen Schutz und Komfort. Atmungsaktive Materialien fördern ein angenehmes Hautgefühl, während das CapturePocket TM zusätzlichen Schutz am Rücken gewährleistet. Das Wechseln der Pants wird durch die praktischen Seitennähte zum Kinderspiel: Einfach aufreißen, zusammenrollen und mit dem Verschluss-Streifen sicher entsorgen."
+                - generic [ref=e293]:
+                  - generic [ref=e294]: "dm-Artikelnummer: 1577914"
+                  - generic [ref=e295]: "GTIN: 4067796080315"
+            - group [ref=e296]:
+              - generic "Produktmerkmale" [ref=e297] [cursor=pointer]:
+                - generic [ref=e298]: Produktmerkmale
+                - generic [ref=e299]:
+                  - img
+            - group [ref=e300]:
+              - generic "Infos zur Nachhaltigkeit des Produktes" [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]: Infos zur Nachhaltigkeit des Produktes
+                - generic [ref=e303]:
+                  - img
+            - group [ref=e304]:
+              - generic "Anschrift des Unternehmens" [ref=e305] [cursor=pointer]:
+                - generic [ref=e306]: Anschrift des Unternehmens
+                - generic [ref=e307]:
+                  - img
+            - group [ref=e308]:
+              - generic "Hergestellt in" [ref=e309] [cursor=pointer]:
+                - generic [ref=e310]: Hergestellt in
+                - generic [ref=e311]:
+                  - img
+      - link "babylove Weitere Produkte von babylove" [ref=e314] [cursor=pointer]:
+        - /url: /marken/babylove
+        - img "babylove" [ref=e315]
+        - text: Weitere Produkte von babylove
+      - generic [ref=e319]:
+        - heading "Passende Beratung" [level=2] [ref=e321]
+        - generic [ref=e324]:
+          - button "Auflistung überspringen" [ref=e325]
+          - list [ref=e327]:
+            - listitem [ref=e328]:
+              - 'link "Töpfchentraining – Schritte zum Sauberwerden, Tschüss Windel – hallo Töpfchen: Die besten Tipps" [ref=e331] [cursor=pointer]':
+                - /url: /tipps-und-trends/baby-kleinkind/entwicklung/toepfchentraining-53748
+                - generic [ref=e333]:
+                  - img "Eine Person mit lockigem Haar und weißem Oberteil kniet auf dem Boden eines Badezimmers und hält die Hände eines Kleinkindes, das auf einem grauen Töpfchen sitzt und einen gestreiften Einteiler trägt, während im Hintergrund eine Duschkabine und ein Fenster zu sehen sind" [ref=e336]
+                  - generic [ref=e337]:
+                    - paragraph [ref=e338]: "Tschüss Windel – hallo Töpfchen: Die besten Tipps"
+                    - paragraph [ref=e339]: Töpfchentraining – Schritte zum Sauberwerden
+            - listitem [ref=e340]:
+              - link "Zehn Tipps bei Bettnässen, Tagebuch, Windelslips und Lesetipps" [ref=e343] [cursor=pointer]:
+                - /url: /tipps-und-trends/kind/entwicklung-foerderung/tipps-gegen-bettnaessen-57914
+                - generic [ref=e345]:
+                  - img "Schlafendes Kind liegt im Bett" [ref=e348]
+                  - generic [ref=e349]:
+                    - paragraph [ref=e350]: Tagebuch, Windelslips und Lesetipps
+                    - paragraph [ref=e351]: Zehn Tipps bei Bettnässen
+          - paragraph: Ende der Auflistung
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - heading "Ähnliche Produkte" [level=2] [ref=e356]
+          - generic [ref=e360]:
+            - button "Auflistung überspringen" [ref=e361]
+            - generic [ref=e362]:
+              - list [ref=e363]:
+                - listitem [ref=e364]
+                - listitem [ref=e376]
+                - listitem [ref=e388]
+                - listitem [ref=e400]
+                - listitem [ref=e412]
+                - listitem [ref=e424]
+                - listitem [ref=e436]
+                - listitem [ref=e448]
+                - listitem [ref=e460]
+                - listitem [ref=e472]
+              - button "Nächstes Element anzeigen" [ref=e484] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+        - generic [ref=e485]:
+          - heading "Andere Kunden kauften auch" [level=2] [ref=e488]
+          - generic [ref=e492]:
+            - button "Auflistung überspringen" [ref=e493]
+            - generic [ref=e494]:
+              - list [ref=e495]:
+                - listitem [ref=e496]
+                - listitem [ref=e508]
+                - listitem [ref=e520]
+                - listitem [ref=e532]
+                - listitem [ref=e544]
+                - listitem [ref=e556]
+                - listitem [ref=e568]
+                - listitem [ref=e580]
+                - listitem [ref=e592]
+                - listitem [ref=e604]
+              - button "Nächstes Element anzeigen" [ref=e616] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+      - generic [ref=e620]:
+        - alert [ref=e621]
+        - generic [ref=e622]:
+          - heading "Bewertungen" [level=2] [ref=e624]
+          - generic [ref=e625]:
+            - generic [ref=e626]:
+              - generic [ref=e628]:
+                - heading [level=3] [ref=e629]
+                - generic [ref=e630]:
+                  - generic [ref=e631]: Alle veröffentlichten Bewertungen haben an einem Gewinnspiel teilgenommen. Wir überprüfen nicht, ob die Bewertenden die Produkte tatsächlich gekauft und/oder genutzt haben.
+                  - group [ref=e632]:
+                    - button "427 Bewertungen mit 5 Sternen." [ref=e633]:
+                      - paragraph [ref=e634]:
+                        - text: 5 Sterne
+                        - generic [ref=e635]: Sterne
+                      - generic [ref=e638]:
+                        - text: "427"
+                        - generic [ref=e639]: 427 Bewertungen mit 5 Sternen.
+                    - button "157 Bewertungen mit 4 Sternen." [ref=e640]:
+                      - paragraph [ref=e641]:
+                        - text: 4 Sterne
+                        - generic [ref=e642]: Sterne
+                      - generic [ref=e645]:
+                        - text: "157"
+                        - generic [ref=e646]: 157 Bewertungen mit 4 Sternen.
+                    - button "77 Bewertungen mit 3 Sternen." [ref=e647]:
+                      - paragraph [ref=e648]:
+                        - text: 3 Sterne
+                        - generic [ref=e649]: Sterne
+                      - generic [ref=e652]:
+                        - text: "77"
+                        - generic [ref=e653]: 77 Bewertungen mit 3 Sternen.
+                    - button "47 Bewertungen mit 2 Sternen." [ref=e654]:
+                      - paragraph [ref=e655]:
+                        - text: 2 Sterne
+                        - generic [ref=e656]: Sterne
+                      - generic [ref=e659]:
+                        - text: "47"
+                        - generic [ref=e660]: 47 Bewertungen mit 2 Sternen.
+                    - button "115 Bewertungen mit 1 Stern." [ref=e661]:
+                      - paragraph [ref=e662]:
+                        - text: 1 Stern
+                        - generic [ref=e663]: Sterne
+                      - generic [ref=e666]:
+                        - text: "115"
+                        - generic [ref=e667]: 115 Bewertungen mit 1 Stern.
+              - region "Gesamtbewertung" [ref=e669]:
+                - heading "Gesamtbewertung" [level=3] [ref=e670]
+                - generic [ref=e671]:
+                  - generic [ref=e672]:
+                    - generic [ref=e673]: "3.9"
+                    - link "3.9 von 5 Sternen. Lese Bewertungen für Baby Pants Premium Junior Gr. 5 (13-18 kg)." [ref=e674] [cursor=pointer]:
+                      - generic [ref=e675]:
+                        - generic [ref=e676]:
+                          - img [ref=e677]
+                          - img [ref=e679]
+                          - img [ref=e681]
+                          - img [ref=e683]
+                          - img [ref=e685]
+                        - text: 823 Bewertungen
+                  - generic [ref=e687]: 346 von 509 (68%) empfehlen dieses Produkt.
+              - generic [ref=e689]:
+                - heading "Jetzt Produkt bewerten" [level=3] [ref=e690]
+                - group "Die Bewertung ist 0 (von 5 Sternen)." [ref=e692]:
+                  - button "Wähle diese Option, um den Artikel mit 1 Stern zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet." [ref=e693]:
+                    - img [ref=e695] [cursor=pointer]
+                    - generic [ref=e702]: Wähle diese Option, um den Artikel mit 1 Stern zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet.
+                  - button "Wähle diese Option, um den Artikel mit 2 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet." [ref=e703]:
+                    - img [ref=e705] [cursor=pointer]
+                    - generic [ref=e712]: Wähle diese Option, um den Artikel mit 2 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet.
+                  - button "Wähle diese Option, um den Artikel mit 3 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet." [ref=e713]:
+                    - img [ref=e715] [cursor=pointer]
+                    - generic [ref=e722]: Wähle diese Option, um den Artikel mit 3 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet.
+                  - button "Wähle diese Option, um den Artikel mit 4 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet." [ref=e723]:
+                    - img [ref=e725] [cursor=pointer]
+                    - generic [ref=e732]: Wähle diese Option, um den Artikel mit 4 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet.
+                  - button "Wähle diese Option, um den Artikel mit 5 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet." [ref=e733]:
+                    - img [ref=e735] [cursor=pointer]
+                    - generic [ref=e742]: Wähle diese Option, um den Artikel mit 5 Sternen zu bewerten. Mit dieser Aktion wird das Eingabeformular geöffnet.
+            - generic [ref=e744]:
+              - heading "Durchschnittliche Bewertung der Produktmerkmale" [level=3] [ref=e745]
+              - generic [ref=e746]:
+                - generic [ref=e747]: Saugkraft
+                - generic [ref=e748]: Saugkraft, 3.3 von 5
+                - generic [ref=e756]: "3.3"
+              - generic [ref=e757]:
+                - generic [ref=e758]: Hautverträglichkeit
+                - generic [ref=e759]: Hautverträglichkeit, 4.4 von 5
+                - generic [ref=e767]: "4.4"
+          - generic [ref=e770]:
+            - heading "Bewertungen filtern" [level=3] [ref=e771]
+            - search "Suchthemen und Bewertungen Suchregion" [ref=e774]:
+              - generic [ref=e775]: Suchthemen und Bewertungen Suchregion
+              - textbox "Themen und Bewertungen suchen" [ref=e776]
+              - img [ref=e778] [cursor=pointer]
+            - generic [ref=e780]:
+              - combobox "Menü, filtern nach Beurteilung" [ref=e782] [cursor=pointer]:
+                - text: Beurteilung
+                - img [ref=e784]
+              - combobox "Menü, filtern nach Region" [ref=e790] [cursor=pointer]:
+                - text: Region
+                - img [ref=e792]
+          - generic [ref=e797]:
+            - alert [ref=e798]
+            - alert [ref=e799]: 1 to 8 von 823 Bewertungen.
+            - generic [ref=e800]:
+              - generic [ref=e801]: 1 – 8 von 823 Bewertungen
+              - generic [ref=e806]:
+                - generic [ref=e808]: Sortieren nach
+                - combobox "Menü, sortieren nach Neueste." [ref=e809] [cursor=pointer]:
+                  - generic [ref=e811]: Neueste
+                - img [ref=e813]
+          - region "Bewertungen" [ref=e818]:
+            - region "1 out of 8 Reviews, Ratings 5 out of 5." [ref=e819]:
+              - generic [ref=e823]:
+                - generic [ref=e824]:
+                  - generic [ref=e825]:
+                    - img "5 von 5 Sternen." [ref=e826]:
+                      - generic [ref=e827]:
+                        - img [ref=e828]
+                        - img [ref=e830]
+                        - img [ref=e832]
+                        - img [ref=e834]
+                        - img [ref=e836]
+                      - generic [ref=e838]: 5 von 5 Sternen.
+                    - generic [ref=e839]:
+                      - heading "Positiv überrascht" [level=3] [ref=e840]
+                      - generic [ref=e842]:
+                        - generic [ref=e844]:
+                          - button "Profil von Alina anzeigen." [disabled]: Alina
+                        - generic [ref=e846]: vor 3 Tagen
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: Positiv überrascht. Nachdem wir mehrere Pants getestet haben, mussten wir feststellen, dass diese immer noch die besten für uns sind. Kein Auslaufen, kein Krümeln. Wir sind sehr zufrieden und werden auch die Monatsbox wieder bestellen. Im Gegensatz zu anderen Marken lassen sie sich an der Seite superleicht aufreißen.
+                    - generic [ref=e851]:
+                      - img [ref=e855]
+                      - paragraph [ref=e864]: Ja, Ich würde dieses Produkt empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e867]:
+                      - generic [ref=e869]: Hilfreich?
+                      - generic [ref=e870]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von Alina hilfreich." [ref=e871] [cursor=pointer]':
+                          - generic [ref=e872]:
+                            - img [ref=e874]
+                            - generic [ref=e876]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Alina nicht hilfreich." [ref=e878] [cursor=pointer]':
+                          - generic [ref=e879]:
+                            - img [ref=e880]
+                            - generic [ref=e882]: (0)
+                          - alert
+                        - generic [ref=e884]:
+                          - button "review „Positiv überrascht“ von Alina als unangemessen melden." [ref=e885] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e888]:
+                  - generic [ref=e889]: Saugkraft
+                  - generic [ref=e890]: Saugkraft, 5.0 von 5
+                  - generic [ref=e897]: "5.0"
+                  - generic [ref=e898]: Hautverträglichkeit
+                  - generic [ref=e899]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e906]: "5.0"
+            - region "2 out of 8 Reviews, Ratings 1 out of 5." [ref=e907]:
+              - generic [ref=e911]:
+                - generic [ref=e912]:
+                  - generic [ref=e913]:
+                    - img "1 von 5 Sternen." [ref=e914]:
+                      - generic [ref=e915]:
+                        - img [ref=e916]
+                        - img [ref=e918]
+                        - img [ref=e920]
+                        - img [ref=e922]
+                        - img [ref=e924]
+                      - generic [ref=e926]: 1 von 5 Sternen.
+                    - generic [ref=e927]:
+                      - heading "Nicht zu empfehlen" [level=3] [ref=e928]
+                      - generic [ref=e930]:
+                        - generic [ref=e932]:
+                          - button "Profil von Marina anzeigen." [disabled]: Marina
+                        - generic [ref=e934]: vor 18 Tagen
+                  - generic [ref=e936]:
+                    - generic [ref=e937]: Haben auch Größe 4 und 5 gekauft, um zu schauen welche passt. Eigentlich hat er Größe 5, aber von der KG Anzahl würde 4 auch passen. Beide halten absolut nichts aus. Nach einer Stunde ist jetzt die komplette Hose nass ( Größe 5 getragen), sodass ich jetzt wieder nach Hause muss um meinen Sohn umzuziehen. Absolut nervig!
+                    - generic [ref=e939]:
+                      - img [ref=e943]
+                      - paragraph [ref=e946]: Nein, Ich würde dieses Produkt nicht empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e949]:
+                      - generic [ref=e951]: Hilfreich?
+                      - generic [ref=e952]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von Marina hilfreich." [ref=e953] [cursor=pointer]':
+                          - generic [ref=e954]:
+                            - img [ref=e956]
+                            - generic [ref=e958]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Marina nicht hilfreich." [ref=e960] [cursor=pointer]':
+                          - generic [ref=e961]:
+                            - img [ref=e962]
+                            - generic [ref=e964]: (0)
+                          - alert
+                        - generic [ref=e966]:
+                          - button "review „Nicht zu empfehlen“ von Marina als unangemessen melden." [ref=e967] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e970]:
+                  - generic [ref=e971]: Saugkraft
+                  - generic [ref=e972]: Saugkraft, 1.0 von 5
+                  - generic [ref=e979]: "1.0"
+                  - generic [ref=e980]: Hautverträglichkeit
+                  - generic [ref=e981]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e988]: "5.0"
+            - region "3 out of 8 Reviews, Ratings 2 out of 5." [ref=e989]:
+              - generic [ref=e993]:
+                - generic [ref=e994]:
+                  - generic [ref=e995]:
+                    - img "2 von 5 Sternen." [ref=e996]:
+                      - generic [ref=e997]:
+                        - img [ref=e998]
+                        - img [ref=e1000]
+                        - img [ref=e1002]
+                        - img [ref=e1004]
+                        - img [ref=e1006]
+                      - generic [ref=e1008]: 2 von 5 Sternen.
+                    - generic [ref=e1009]:
+                      - heading "Katastrophe" [level=3] [ref=e1010]
+                      - generic [ref=e1012]:
+                        - generic [ref=e1014]:
+                          - button "Profil von Jenofi anzeigen." [disabled]: Jenofi
+                        - generic [ref=e1016]: vor 19 Tagen
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]: Die Windeln sind weich. Sie riechen nicht nach Chemie. Leider ist der Schnitt so, dass es an den Seiten ausläuft. Jedes Mal. Ob Urin oder Kot. Echt ärgerlich gewesen. Kaufe ich nicht nochmal.
+                    - generic [ref=e1021]:
+                      - img [ref=e1025]
+                      - paragraph [ref=e1028]: Nein, Ich würde dieses Produkt nicht empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e1031]:
+                      - generic [ref=e1033]: Hilfreich?
+                      - generic [ref=e1034]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von Jenofi hilfreich." [ref=e1035] [cursor=pointer]':
+                          - generic [ref=e1036]:
+                            - img [ref=e1038]
+                            - generic [ref=e1040]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Jenofi nicht hilfreich." [ref=e1042] [cursor=pointer]':
+                          - generic [ref=e1043]:
+                            - img [ref=e1044]
+                            - generic [ref=e1046]: (0)
+                          - alert
+                        - generic [ref=e1048]:
+                          - button "review „Katastrophe“ von Jenofi als unangemessen melden." [ref=e1049] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]: Saugkraft
+                  - generic [ref=e1054]: Saugkraft, 2.0 von 5
+                  - generic [ref=e1061]: "2.0"
+                  - generic [ref=e1062]: Hautverträglichkeit
+                  - generic [ref=e1063]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e1070]: "5.0"
+            - region "4 out of 8 Reviews, Ratings 4 out of 5." [ref=e1071]:
+              - generic [ref=e1075]:
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]:
+                    - img "4 von 5 Sternen." [ref=e1078]:
+                      - generic [ref=e1079]:
+                        - img [ref=e1080]
+                        - img [ref=e1082]
+                        - img [ref=e1084]
+                        - img [ref=e1086]
+                        - img [ref=e1088]
+                      - generic [ref=e1090]: 4 von 5 Sternen.
+                    - generic [ref=e1091]:
+                      - heading "Preis Leistung - super!" [level=3] [ref=e1092]
+                      - generic [ref=e1094]:
+                        - generic [ref=e1096]:
+                          - button "Profil von Michelle anzeigen." [disabled]: Michelle
+                        - generic [ref=e1098]: vor einem Monat
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]: Ich bin bisher sehr zufrieden, wir benutzen Babylove schon von Beginn an - durch Zufall und Empfehlung entdeckt. Mir gefällt dass sie schön dünn sind und ohne die ganzen schädlichen Stoffe! Nur ein Punkt Abzug, da ich mit diesen Windeln immer einen Uringeruch wahrnehme, das konnte ich bei anderen Marken nicht feststellen.
+                    - group "Nützlichkeit der Inhalte" [ref=e1104]:
+                      - generic [ref=e1106]: Hilfreich?
+                      - generic [ref=e1107]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von Michelle hilfreich." [ref=e1108] [cursor=pointer]':
+                          - generic [ref=e1109]:
+                            - img [ref=e1111]
+                            - generic [ref=e1113]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Michelle nicht hilfreich." [ref=e1115] [cursor=pointer]':
+                          - generic [ref=e1116]:
+                            - img [ref=e1117]
+                            - generic [ref=e1119]: (0)
+                          - alert
+                        - generic [ref=e1121]:
+                          - button "review „Preis Leistung - super!“ von Michelle als unangemessen melden." [ref=e1122] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: Saugkraft
+                  - generic [ref=e1127]: Saugkraft, 4.0 von 5
+                  - generic [ref=e1134]: "4.0"
+                  - generic [ref=e1135]: Hautverträglichkeit
+                  - generic [ref=e1136]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e1143]: "5.0"
+            - region "5 out of 8 Reviews, Ratings 1 out of 5." [ref=e1144]:
+              - generic [ref=e1148]:
+                - generic [ref=e1149]:
+                  - generic [ref=e1150]:
+                    - img "1 von 5 Sternen." [ref=e1151]:
+                      - generic [ref=e1152]:
+                        - img [ref=e1153]
+                        - img [ref=e1155]
+                        - img [ref=e1157]
+                        - img [ref=e1159]
+                        - img [ref=e1161]
+                      - generic [ref=e1163]: 1 von 5 Sternen.
+                    - generic [ref=e1164]:
+                      - heading "Nicht zu empfehlen" [level=3] [ref=e1165]
+                      - generic [ref=e1167]:
+                        - generic [ref=e1169]:
+                          - button "Profil von Rima anzeigen." [disabled]: Rima
+                        - generic [ref=e1171]: vor 2 Monaten
+                  - generic [ref=e1173]:
+                    - generic [ref=e1174]: Nicht auslaufsicher! Leider war das Kind mehrmals nass genauso wie das Bett
+                    - group "Nützlichkeit der Inhalte" [ref=e1177]:
+                      - generic [ref=e1179]: Hilfreich?
+                      - generic [ref=e1180]:
+                        - 'button "Ja: 1 Person fand diese Bewertung von Rima hilfreich." [ref=e1181] [cursor=pointer]':
+                          - generic [ref=e1182]:
+                            - img [ref=e1184]
+                            - generic [ref=e1186]: (1)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Rima nicht hilfreich." [ref=e1188] [cursor=pointer]':
+                          - generic [ref=e1189]:
+                            - img [ref=e1190]
+                            - generic [ref=e1192]: (0)
+                          - alert
+                        - generic [ref=e1194]:
+                          - button "review „Nicht zu empfehlen“ von Rima als unangemessen melden." [ref=e1195] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1198]:
+                  - generic [ref=e1199]: Saugkraft
+                  - generic [ref=e1200]: Saugkraft, 1.0 von 5
+                  - generic [ref=e1207]: "1.0"
+                  - generic [ref=e1208]: Hautverträglichkeit
+                  - generic [ref=e1209]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e1216]: "5.0"
+            - region "6 out of 8 Reviews, Ratings 1 out of 5." [ref=e1217]:
+              - generic [ref=e1221]:
+                - generic [ref=e1222]:
+                  - generic [ref=e1223]:
+                    - img "1 von 5 Sternen." [ref=e1224]:
+                      - generic [ref=e1225]:
+                        - img [ref=e1226]
+                        - img [ref=e1228]
+                        - img [ref=e1230]
+                        - img [ref=e1232]
+                        - img [ref=e1234]
+                      - generic [ref=e1236]: 1 von 5 Sternen.
+                    - generic [ref=e1237]:
+                      - heading "Furchtbar" [level=3] [ref=e1238]
+                      - generic [ref=e1240]:
+                        - generic [ref=e1242]:
+                          - button "Profil von Bub20 anzeigen." [disabled]: Bub20
+                        - generic [ref=e1244]: vor 2 Monaten
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]: Bisher die schlechteste Windel die ich gekauft habe. Das Kind wird jedes mal komplett nass nach nicht mal 2 Stunden. Nie wieder!!
+                    - generic [ref=e1249]:
+                      - img [ref=e1253]
+                      - paragraph [ref=e1256]: Nein, Ich würde dieses Produkt nicht empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e1259]:
+                      - generic [ref=e1261]: Hilfreich?
+                      - generic [ref=e1262]:
+                        - 'button "Ja: 1 Person fand diese Bewertung von Bub20 hilfreich." [ref=e1263] [cursor=pointer]':
+                          - generic [ref=e1264]:
+                            - img [ref=e1266]
+                            - generic [ref=e1268]: (1)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Bub20 nicht hilfreich." [ref=e1270] [cursor=pointer]':
+                          - generic [ref=e1271]:
+                            - img [ref=e1272]
+                            - generic [ref=e1274]: (0)
+                          - alert
+                        - generic [ref=e1276]:
+                          - button "review „Furchtbar“ von Bub20 als unangemessen melden." [ref=e1277] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1280]:
+                  - generic [ref=e1281]: Saugkraft
+                  - generic [ref=e1282]: Saugkraft, 1.0 von 5
+                  - generic [ref=e1289]: "1.0"
+                  - generic [ref=e1290]: Hautverträglichkeit
+                  - generic [ref=e1291]: Hautverträglichkeit, 1.0 von 5
+                  - generic [ref=e1298]: "1.0"
+            - region "7 out of 8 Reviews, Ratings 5 out of 5." [ref=e1299]:
+              - generic [ref=e1303]:
+                - generic [ref=e1304]:
+                  - generic [ref=e1305]:
+                    - img "5 von 5 Sternen." [ref=e1306]:
+                      - generic [ref=e1307]:
+                        - img [ref=e1308]
+                        - img [ref=e1310]
+                        - img [ref=e1312]
+                        - img [ref=e1314]
+                        - img [ref=e1316]
+                      - generic [ref=e1318]: 5 von 5 Sternen.
+                    - generic [ref=e1319]:
+                      - heading "Super Windeln für tagsüber" [level=3] [ref=e1320]
+                      - generic [ref=e1322]:
+                        - generic [ref=e1324]:
+                          - button "Profil von Nata123 anzeigen." [disabled]: Nata123
+                        - generic [ref=e1326]: vor 2 Monaten
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: Für Tagsüber finde ich die Windeln super! Fühlen sich auch sehr gut an.
+                    - generic [ref=e1331]:
+                      - img [ref=e1335]
+                      - paragraph [ref=e1344]: Ja, Ich würde dieses Produkt empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e1347]:
+                      - generic [ref=e1349]: Hilfreich?
+                      - generic [ref=e1350]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von Nata123 hilfreich." [ref=e1351] [cursor=pointer]':
+                          - generic [ref=e1352]:
+                            - img [ref=e1354]
+                            - generic [ref=e1356]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von Nata123 nicht hilfreich." [ref=e1358] [cursor=pointer]':
+                          - generic [ref=e1359]:
+                            - img [ref=e1360]
+                            - generic [ref=e1362]: (0)
+                          - alert
+                        - generic [ref=e1364]:
+                          - button "review „Super Windeln für tagsüber“ von Nata123 als unangemessen melden." [ref=e1365] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]: Saugkraft
+                  - generic [ref=e1370]: Saugkraft, 5.0 von 5
+                  - generic [ref=e1377]: "5.0"
+                  - generic [ref=e1378]: Hautverträglichkeit
+                  - generic [ref=e1379]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e1386]: "5.0"
+            - region "8 out of 8 Reviews, Ratings 2 out of 5." [ref=e1387]:
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - generic [ref=e1393]:
+                    - img "2 von 5 Sternen." [ref=e1394]:
+                      - generic [ref=e1395]:
+                        - img [ref=e1396]
+                        - img [ref=e1398]
+                        - img [ref=e1400]
+                        - img [ref=e1402]
+                        - img [ref=e1404]
+                      - generic [ref=e1406]: 2 von 5 Sternen.
+                    - generic [ref=e1407]:
+                      - heading "Enttäuschend – nicht zu empfehlen" [level=3] [ref=e1408]
+                      - generic [ref=e1410]:
+                        - generic [ref=e1412]:
+                          - button "Profil von einokapi anzeigen." [disabled]: einokapi
+                        - generic [ref=e1414]: vor 2 Monaten
+                  - generic [ref=e1416]:
+                    - generic [ref=e1417]: Ich habe die Pants Premium Disney, Größe 5 gekauft und bin leider sehr unzufrieden. Bei fast allen Windeln war das Hydrogel schon vor der Nutzung verklumpt. Dadurch sind die Pants hart, unbequem und kaum saugfähig. Für den Preis habe ich deutlich bessere Qualität erwartet. Ich würde das Produkt nicht erneut kaufen.
+                    - generic [ref=e1419]:
+                      - img [ref=e1423]
+                      - paragraph [ref=e1426]: Nein, Ich würde dieses Produkt nicht empfehlen.
+                    - group "Nützlichkeit der Inhalte" [ref=e1429]:
+                      - generic [ref=e1431]: Hilfreich?
+                      - generic [ref=e1432]:
+                        - 'button "Ja: 0 Personen fanden diese Bewertung von einokapi hilfreich." [ref=e1433] [cursor=pointer]':
+                          - generic [ref=e1434]:
+                            - img [ref=e1436]
+                            - generic [ref=e1438]: (0)
+                          - alert
+                        - 'button "Nein: 0 Personen fanden diese Bewertung von einokapi nicht hilfreich." [ref=e1440] [cursor=pointer]':
+                          - generic [ref=e1441]:
+                            - img [ref=e1442]
+                            - generic [ref=e1444]: (0)
+                          - alert
+                        - generic [ref=e1446]:
+                          - button "review „Enttäuschend – nicht zu empfehlen“ von einokapi als unangemessen melden." [ref=e1447] [cursor=pointer]: Melden
+                          - alert
+                - generic [ref=e1450]:
+                  - generic [ref=e1451]: Saugkraft
+                  - generic [ref=e1452]: Saugkraft, 1.0 von 5
+                  - generic [ref=e1459]: "1.0"
+                  - generic [ref=e1460]: Hautverträglichkeit
+                  - generic [ref=e1461]: Hautverträglichkeit, 5.0 von 5
+                  - generic [ref=e1468]: "5.0"
+          - generic [ref=e1469]:
+            - alert [ref=e1470]
+            - alert [ref=e1471]
+            - generic [ref=e1472]:
+              - generic [ref=e1473]: 1 – 8 von 823 Bewertungen
+              - button "ZurückBewertungen" [disabled] [ref=e1474]:
+                - generic [ref=e1475]: ZurückBewertungen
+                - img [ref=e1477]
+              - button "Weiter Bewertungen" [ref=e1483] [cursor=pointer]:
+                - generic [ref=e1484]: Weiter Bewertungen
+                - img [ref=e1486]
+  - contentinfo [ref=e1496]:
+    - generic [ref=e1501]:
+      - generic [ref=e1502]:
+        - text: Alle Preisangaben inkl. gesetzl. MwSt., zzgl. Pfand und
+        - button "Versandkosten" [ref=e1503] [cursor=pointer]
+      - generic [ref=e1504]: (§) Diese Position ist nicht rabattfähig.
+      - generic [ref=e1505]: (&) Lieferung in einen dm-Markt nicht möglich.
+      - generic [ref=e1506]: (#) Für diese Position erhältst Du keine PAYBACK Punkte.
+    - generic [ref=e1512]:
+      - generic [ref=e1514]:
+        - img [ref=e1517]
+        - heading "Wie gefällt Dir diese Seite?" [level=2] [ref=e1520]
+      - generic [ref=e1522]:
+        - button "sehr zufriedener Emoji" [ref=e1523] [cursor=pointer]:
+          - button "sehr zufriedener Emoji" [ref=e1526]
+        - button "zufriedener Emoji" [ref=e1531] [cursor=pointer]:
+          - button "zufriedener Emoji" [ref=e1534]
+        - button "trauriger Emoji" [ref=e1539] [cursor=pointer]:
+          - button "trauriger Emoji" [ref=e1542]
+        - button "sehr trauriger Emoji" [ref=e1547] [cursor=pointer]:
+          - button "sehr trauriger Emoji" [ref=e1550]
+    - generic [ref=e1557]:
+      - navigation "Unternehmen" [ref=e1561]:
+        - list [ref=e1562]:
+          - listitem [ref=e1563]:
+            - link "Unternehmen" [ref=e1564] [cursor=pointer]:
+              - /url: /unternehmen
+            - text: "|"
+          - listitem [ref=e1565]:
+            - link "Jobs" [ref=e1566] [cursor=pointer]:
+              - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=f&utm_campaign=forward
+            - text: "|"
+          - listitem [ref=e1567]:
+            - link "Services" [ref=e1568] [cursor=pointer]:
+              - /url: /services
+            - text: "|"
+          - listitem [ref=e1569]:
+            - link "Kundenservice" [ref=e1570] [cursor=pointer]:
+              - /url: https://cs.dm.de/csp
+            - text: "|"
+          - listitem [ref=e1571]:
+            - link "Geschäftskunden" [ref=e1572] [cursor=pointer]:
+              - /url: /dmbusiness
+      - generic [ref=e1575]:
+        - heading "dm & Partner" [level=2] [ref=e1577]
+        - list [ref=e1579]:
+          - listitem [ref=e1580]:
+            - link "glückskind" [ref=e1583] [cursor=pointer]:
+              - /url: /glueckskind
+          - listitem [ref=e1589]:
+            - link "dmbusiness" [ref=e1592] [cursor=pointer]:
+              - /url: /dmbusiness
+          - listitem [ref=e1598]:
+            - link "dm-med" [ref=e1601] [cursor=pointer]:
+              - /url: /dm-med
+      - generic [ref=e1609]:
+        - heading "Sicherheit & Datenschutz bei dm" [level=2] [ref=e1611]
+        - list [ref=e1613]:
+          - listitem [ref=e1614]:
+            - link "EHI Geprüfter Online-Shop" [ref=e1617] [cursor=pointer]:
+              - /url: https://cert.ehi-siegel.de/webshop/dm-de_4034081?lang=deu
+          - listitem [ref=e1624]:
+            - link "Zur Überprüfung der Legalität dieser Website hier klicken" [ref=e1627] [cursor=pointer]:
+              - /url: https://versandhandel.dimdi.de/websearch/servlet/Gate;jsessionid=5DCD9D50764415183671D44231D0E6B8?accessid=dimdi_var&term=9b8fec8e83927c82bea283a3dc727926
+      - generic [ref=e1635]:
+        - heading "Zahlungsarten bei dm" [level=2] [ref=e1637]
+        - list [ref=e1639]:
+          - listitem [ref=e1640]:
+            - link "Klarna kauf auf Rechnung" [ref=e1643] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#rechnung
+          - listitem [ref=e1650]:
+            - link "Lastschrift" [ref=e1653] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#lastschrift
+          - listitem [ref=e1660]:
+            - link "Klarna Sofortüberweisung" [ref=e1663] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#sofortueberweisung
+          - listitem [ref=e1670]:
+            - link "Paypal" [ref=e1673] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#paypal
+          - listitem [ref=e1680]:
+            - link "Vorkasse" [ref=e1683] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#vorkasse
+          - listitem [ref=e1690]:
+            - link "Visa" [ref=e1693] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e1700]:
+            - link "Mastercard" [ref=e1703] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e1710]:
+            - link "American Express" [ref=e1713] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e1720]:
+            - link "dm-Geschenkkarte" [ref=e1723] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#geschenkkarte
+          - listitem [ref=e1730]:
+            - link "Apple pay" [ref=e1733] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#apple
+          - listitem [ref=e1740]:
+            - link "google pay" [ref=e1743] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#google
+          - listitem [ref=e1750]:
+            - link "PayPal" [ref=e1753] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback
+          - listitem [ref=e1759]:
+            - link "PAYBACK PAY" [ref=e1762] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback-pay
+      - paragraph [ref=e1771]: Bei dm-med können die Zahlungsarten abweichen.
+      - generic [ref=e1774]:
+        - heading "Mit dm verbinden" [level=2] [ref=e1776]
+        - list [ref=e1778]:
+          - listitem [ref=e1779]:
+            - link "Facebook" [ref=e1782] [cursor=pointer]:
+              - /url: https://de-de.facebook.com/dm.Deutschland
+          - listitem [ref=e1788]:
+            - link "Instagram" [ref=e1791] [cursor=pointer]:
+              - /url: https://www.instagram.com/dm_deutschland/
+          - listitem [ref=e1797]:
+            - link "Kununu" [ref=e1800] [cursor=pointer]:
+              - /url: https://www.kununu.com/de/dm-drogerie-markt
+          - listitem [ref=e1806]:
+            - link "Linkedin" [ref=e1809] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/dm-drogerie-markt-gmbh-co.-kg/?originalSubdomain=de
+          - listitem [ref=e1815]:
+            - link "Xing" [ref=e1818] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/dm
+          - listitem [ref=e1824]:
+            - link "Youtube" [ref=e1827] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/dmdeutschland
+          - listitem [ref=e1833]:
+            - link "Pinterest" [ref=e1836] [cursor=pointer]:
+              - /url: https://www.pinterest.de/dmdeutschland/
+          - listitem [ref=e1842]:
+            - link "TikTok" [ref=e1845] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@dm_deutschland
+          - listitem [ref=e1851]:
+            - link "dm-Newsletter" [ref=e1854] [cursor=pointer]:
+              - /url: /services/dm-newsletter
+          - listitem [ref=e1860]:
+            - link "WhatsApp" [ref=e1863] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029Va5bU8pDDmFW93XhL220
+      - generic [ref=e1871]:
+        - heading "Jetzt die dm-App herunterladen" [level=2] [ref=e1873]
+        - list [ref=e1875]:
+          - listitem [ref=e1876]:
+            - link "dm-App im Apple App Store" [ref=e1879] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/mein-dm/id1186271926
+          - listitem [ref=e1885]:
+            - link "dm-App im Google Play Store" [ref=e1888] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.dm.meindm.android
+      - navigation "Rechtliche Informationen" [ref=e1897]:
+        - list [ref=e1898]:
+          - listitem [ref=e1899]:
+            - link "Impressum dm" [ref=e1900] [cursor=pointer]:
+              - /url: /impressum-43984
+            - text: "|"
+          - listitem [ref=e1901]:
+            - link "Datenschutz dm" [ref=e1902] [cursor=pointer]:
+              - /url: /datenschutz-43978
+            - text: "|"
+          - listitem [ref=e1903]:
+            - link "Einwilligungsverwaltung" [ref=e1904] [cursor=pointer]:
+              - /url: /datenschutz-43978#consent
+            - text: "|"
+          - listitem [ref=e1905]:
+            - link "Nutzungsbedingungen" [ref=e1906] [cursor=pointer]:
+              - /url: /nutzungsbedingungen-v10-3110528
+            - text: "|"
+          - listitem [ref=e1907]:
+            - link "AGB dm" [ref=e1908] [cursor=pointer]:
+              - /url: /agb-43976
+            - text: "|"
+          - listitem [ref=e1909]:
+            - link "Widerrufsbelehrung dm" [ref=e1910] [cursor=pointer]:
+              - /url: /widerrufsbelehrung-44108
+            - text: "|"
+          - listitem [ref=e1911]:
+            - link "Streitschlichtung" [ref=e1912] [cursor=pointer]:
+              - /url: /streitschlichtung-43988
+            - text: "|"
+          - listitem [ref=e1913]:
+            - link "Entsorgung von Elektro-Altgeräten und Batterien" [ref=e1914] [cursor=pointer]:
+              - /url: /elektro-altgeraeteentsorgung-995460
+            - text: "|"
+          - listitem [ref=e1915]:
+            - link "Information zur Barrierefreiheit" [ref=e1916] [cursor=pointer]:
+              - /url: /information-zur-barrierefreiheit-1729910
+            - text: "|"
+          - listitem [ref=e1917]:
+            - link "Meldesystem" [ref=e1918] [cursor=pointer]:
+              - /url: https://dm.integrityline.com/frontpage
+      - navigation "dm-med Hinweis" [ref=e1922]:
+        - list [ref=e1923]:
+          - listitem [ref=e1924]:
+            - link "dm-med Rechtstexte" [ref=e1925] [cursor=pointer]:
+              - /url: /dm-med-rechtstexte-2947738
+      - list [ref=e1929]:
+        - listitem [ref=e1930]:
+          - link "dm" [ref=e1933] [cursor=pointer]:
+            - /url: /

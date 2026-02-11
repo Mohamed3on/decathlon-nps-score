@@ -1,0 +1,101 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Hauptnavigation" [ref=e3] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e4] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e5] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e9]:
+      - generic [ref=e10]:
+        - link "Nachhaltigkeit" [ref=e11] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e12] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e13] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e14] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e15] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e16] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - link "PAYBACK" [ref=e19] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e20]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e21]:
+          - link "glückskind" [ref=e22] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e23]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e24]:
+          - link "alverde Magazin" [ref=e25] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e26]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e27]:
+          - link "dmLive" [ref=e28] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e29]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e32]:
+      - generic:
+        - link "dm Startseite":
+          - /url: /
+      - generic:
+        - generic:
+          - generic:
+            - img "Bitte warten, es wird geladen"
+      - navigation "Haupt" [ref=e33]:
+        - list [ref=e34]:
+          - listitem:
+            - generic:
+              - link "dm-Märkte":
+                - /url: /store
+          - listitem:
+            - generic:
+              - link "Meine Merkliste & Meine Produkte":
+                - /url: /shopping-list
+          - listitem:
+            - generic:
+              - button
+          - listitem
+          - listitem
+  - generic [ref=e36]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e37] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - img
+        - paragraph [ref=e40]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e41] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - img
+        - paragraph [ref=e44]:
+          - generic [ref=e45]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e46] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img
+        - paragraph [ref=e49]: Dauerpreis - dauerhaft günstig einkaufen
+  - main [ref=e50]:
+    - navigation "Breadcrumb" [ref=e54]:
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link "Startseite" [ref=e57] [cursor=pointer]:
+            - /url: /

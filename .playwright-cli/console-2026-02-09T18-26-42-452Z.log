@@ -1,0 +1,20 @@
+[     256ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     261ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     266ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     286ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     289ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     292ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     572ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     972ms] [WARNING] [001 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     972ms] [WARNING] [002 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     972ms] [WARNING] [003 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     972ms] [WARNING] [004 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     972ms] [WARNING] [005 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     972ms] [WARNING] [006 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [007 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [008 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [009 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [010 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [011 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     973ms] [WARNING] [012 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1619ms] [WARNING] [013 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0

@@ -1,0 +1,724 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Hauptnavigation" [ref=e3] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e4] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e5] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e9]:
+      - generic [ref=e10]:
+        - link "Nachhaltigkeit" [ref=e11] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e12] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e13] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e14] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e15] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e16] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - link "PAYBACK" [ref=e19] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e20]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e21]:
+          - link "glückskind" [ref=e22] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e23]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e24]:
+          - link "alverde Magazin" [ref=e25] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e26]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e27]:
+          - link "dmLive" [ref=e28] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e29]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link "dm Startseite" [ref=e34] [cursor=pointer]:
+          - /url: /
+          - img
+        - tooltip "dm Startseite":
+          - generic:
+            - paragraph: dm Startseite
+      - generic [ref=e39]:
+        - combobox "Suchen und finden" [ref=e40]
+        - generic:
+          - generic: Suchen und finden
+          - button "Suche absenden" [ref=e41] [cursor=pointer]:
+            - img
+      - navigation "Haupt" [ref=e42]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - generic [ref=e45]:
+              - link "dm-Märkte" [ref=e46] [cursor=pointer]:
+                - /url: /store
+                - img
+              - tooltip "dm-Märkte":
+                - generic:
+                  - paragraph: dm-Märkte
+          - listitem [ref=e47]:
+            - generic [ref=e48]:
+              - link "Meine Merkliste & Meine Produkte" [ref=e49] [cursor=pointer]:
+                - /url: /shopping-list
+                - img
+              - tooltip "Meine Merkliste & Meine Produkte":
+                - generic:
+                  - paragraph: Meine Merkliste & Meine Produkte
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img
+              - tooltip "Mein Konto":
+                - generic:
+                  - paragraph: Mein Konto
+          - listitem [ref=e53]:
+            - generic [ref=e55]:
+              - link "Warenkorb" [ref=e56] [cursor=pointer]:
+                - /url: /cart
+                - img
+              - tooltip "Warenkorb":
+                - generic:
+                  - paragraph: Warenkorb
+          - listitem
+    - navigation "Kategorien" [ref=e59]:
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Neu" [ref=e62] [cursor=pointer]:
+            - /url: /neu
+        - listitem [ref=e63]:
+          - link "Marken" [ref=e64] [cursor=pointer]:
+            - /url: /marken
+        - listitem [ref=e65]:
+          - link "Make-up" [ref=e66] [cursor=pointer]:
+            - /url: /make-up
+        - listitem [ref=e67]:
+          - link "Pflege & Parfum" [ref=e68] [cursor=pointer]:
+            - /url: /pflege-und-parfum
+        - listitem [ref=e69]:
+          - link "Haare" [ref=e70] [cursor=pointer]:
+            - /url: /haare
+        - listitem [ref=e71]:
+          - link "Gesundheit" [ref=e72] [cursor=pointer]:
+            - /url: /gesundheit
+        - listitem [ref=e73]:
+          - link "Ernährung" [ref=e74] [cursor=pointer]:
+            - /url: /ernaehrung
+        - listitem [ref=e75]:
+          - link "Baby & Kind" [ref=e76] [cursor=pointer]:
+            - /url: /baby-und-kind
+        - listitem [ref=e77]:
+          - link "Haushalt" [ref=e78] [cursor=pointer]:
+            - /url: /haushalt
+        - listitem [ref=e79]:
+          - link "Home & Living" [ref=e80] [cursor=pointer]:
+            - /url: /home-and-living
+        - listitem [ref=e81]:
+          - link "Foto" [ref=e82] [cursor=pointer]:
+            - /url: /foto
+        - listitem [ref=e83]:
+          - link "Tier" [ref=e84] [cursor=pointer]:
+            - /url: /tier
+        - listitem [ref=e85]:
+          - link "Ausverkauf" [ref=e86] [cursor=pointer]:
+            - /url: /ausverkauf
+        - listitem [ref=e87]:
+          - link "Online-Apotheke" [ref=e88] [cursor=pointer]:
+            - /url: /dm-med
+            - generic [ref=e89]:
+              - img
+  - generic [ref=e91]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e92] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - img
+        - paragraph [ref=e95]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e96] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - img
+        - paragraph [ref=e99]:
+          - generic [ref=e100]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e101] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - img
+        - paragraph [ref=e104]: Dauerpreis - dauerhaft günstig einkaufen
+  - img [ref=e108]
+  - main [ref=e115]:
+    - navigation "Breadcrumb" [ref=e119]:
+      - list [ref=e120]:
+        - listitem [ref=e121]:
+          - link "Startseite" [ref=e122] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e123]:
+            - img
+        - listitem [ref=e124]:
+          - link "Baby & Kind" [ref=e125] [cursor=pointer]:
+            - /url: /baby-und-kind
+          - generic [ref=e126]:
+            - img
+        - listitem [ref=e127]:
+          - link "Windeln" [ref=e128] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln
+          - generic [ref=e129]:
+            - img
+        - listitem [ref=e130]:
+          - link "Einwegwindeln" [ref=e131] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln/einwegwindeln
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - heading "Pampers Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox, 174 St" [level=1] [ref=e137]:
+              - link "Pampers" [ref=e139] [cursor=pointer]:
+                - /url: /marken/pampers
+              - text: Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox, 174 St
+            - link "4.6 von 5 Sternen bei 11472 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e142] [cursor=pointer]:
+              - /url: "#dm_bv_container"
+              - generic "4.6 von 5 Sternen bei 11472 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e143]:
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - img [ref=e146]
+                  - img [ref=e147]
+                  - img [ref=e148]
+                  - img [ref=e151]
+                - generic [ref=e152]: "4.6"
+                - generic [ref=e153]: (11472 Bewertungen)
+            - generic [ref=e156]:
+              - generic [ref=e157] [cursor=pointer]: Windelgröße
+              - combobox "Windelgröße" [ref=e158] [cursor=pointer]:
+                - option "Größe 3"
+                - option "Größe 4"
+                - option "Größe 4+"
+                - option "Größe 5" [selected]
+                - option "Größe 5+"
+                - option "Größe 6"
+                - option "Größe 6+"
+                - option "Größe 7"
+                - option "Größe 8"
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162]:
+                  - generic [ref=e164]:
+                    - button "Anzahl reduzieren" [disabled] [ref=e165]:
+                      - img
+                    - combobox "Anzahl ändern" [disabled] [ref=e166]:
+                      - option "1" [selected]
+                    - button "Anzahl erhöhen" [disabled] [ref=e167]:
+                      - img
+                  - generic [ref=e169]:
+                    - generic [ref=e171]: 54,50 €
+                    - generic [ref=e172]:
+                      - generic [ref=e173]: 174 St (0,31 € je 1 St)
+                      - generic [ref=e174]:
+                        - text: inkl. MwSt. zzgl.
+                        - button "Versand" [ref=e175] [cursor=pointer]
+                - button "dm-Dauerpreis nicht erhöht seit 30.01.2023" [ref=e176] [cursor=pointer]:
+                  - generic [ref=e177]:
+                    - img
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: dm-Dauerpreis
+                      - text: nicht erhöht seit 30.01.2023
+                - button "In den Warenkorb" [disabled] [ref=e182]:
+                  - generic [ref=e183]:
+                    - img
+                  - generic [ref=e184]: In den Warenkorb
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - img
+                  - text: Kostenloser Versand ab 59 € mit dm-Konto
+                - generic [ref=e193]:
+                  - img
+                  - text: Kostenlose Rückgabe auch im dm-Markt
+                - generic [ref=e194]:
+                  - img
+                  - text: Kauf auf Rechnung möglich
+            - generic [ref=e195]:
+              - img
+              - generic [ref=e196]: Du erhältst 27 PAYBACK °Punkte
+            - link "Unser Versprechen, immer günstig einzukaufen, Mehr zur dm Dauerpreis-Garantie" [ref=e204] [cursor=pointer]:
+              - /url: /services/services-im-markt/dm-dauerpreis
+              - generic [ref=e207]:
+                - heading "Unser Versprechen, immer günstig einzukaufen" [level=2] [ref=e208]
+                - paragraph [ref=e211]: Mehr zur dm Dauerpreis-Garantie
+          - generic [ref=e213]:
+            - img "Nur Online Grafik" [ref=e215]
+            - generic [ref=e216]:
+              - button "Auflistung überspringen" [ref=e217]
+              - list [ref=e219]:
+                - listitem [ref=e220]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e222] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e223]
+                - listitem [ref=e224]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e226] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e227]
+                - listitem [ref=e228]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e230] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e231]
+                - listitem [ref=e232]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e234] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e235]
+                - listitem [ref=e236]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e238] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e239]
+                - listitem [ref=e240]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e242] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e243]
+                - listitem [ref=e244]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e246] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e247]
+                - listitem [ref=e248]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e250] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e251]
+                - listitem [ref=e252]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e254] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e255]
+                - listitem [ref=e256]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e258] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e259]
+                - listitem [ref=e260]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e262] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e263]
+                - listitem [ref=e264]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e266] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e267]
+                - listitem [ref=e268]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e270] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e271]
+                - listitem [ref=e272]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e274] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e275]
+                - listitem [ref=e276]:
+                  - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e278] [cursor=pointer]:
+                    - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e279]
+                - listitem [ref=e280]:
+                  - button "Video abspielen" [ref=e282] [cursor=pointer]:
+                    - img
+              - paragraph: Ende der Auflistung
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e285] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e286]
+              - listitem [ref=e287]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e288] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e289]
+              - listitem [ref=e290]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e291] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e292]
+              - listitem [ref=e293]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e294] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e295]
+              - listitem [ref=e296]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e297] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e298]
+              - listitem [ref=e299]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e300] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e301]
+              - listitem [ref=e302]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e303] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e304]
+              - listitem [ref=e305]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e306] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e307]
+              - listitem [ref=e308]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e309] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e310]
+              - listitem [ref=e311]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e312] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e313]
+              - listitem [ref=e314]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e315] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e316]
+              - listitem [ref=e317]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e318] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e319]
+              - listitem [ref=e320]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e321] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e322]
+              - listitem [ref=e323]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e324] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e325]
+              - listitem [ref=e326]:
+                - button "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e327] [cursor=pointer]:
+                  - img "Windeln Baby Dry Gr.5 Junior (11-16k g), Monatsbox Pampers" [ref=e328]
+              - listitem [ref=e329]:
+                - button [ref=e330] [cursor=pointer]:
+                  - img
+            - generic [ref=e331]:
+              - button "Produkt merken" [ref=e332] [cursor=pointer]:
+                - img [ref=e334]
+              - button "Produkt teilen" [ref=e336] [cursor=pointer]:
+                - generic [ref=e337]:
+                  - img
+        - generic [ref=e338]:
+          - heading "Infos zum Produkt" [level=2] [ref=e340]
+          - generic [ref=e341]:
+            - group [ref=e342]:
+              - generic "Produktbeschreibung" [ref=e343] [cursor=pointer]:
+                - generic [ref=e344]: Produktbeschreibung
+                - generic [ref=e345]:
+                  - img
+              - generic [ref=e347]:
+                - list [ref=e349]:
+                  - listitem [ref=e350]: 0% EU-Parfümallergene (gemäß EU-Kosmetikverordnung Nr. 1223/2009)
+                  - listitem [ref=e351]: Oeko-Tex-Standard 100 zertifiziert
+                  - listitem [ref=e352]: Hautfreundlichkeit dermatologisch bestätigt
+                  - listitem [ref=e353]: Mit Flexi-Seitenflügel
+                  - listitem [ref=e354]: Trockenheitslage für schnelle Absorption
+                - generic [ref=e357]: Die Windeln Baby Dry in Größe 5 Junior von 11-16 kg in einer Monatsbox von Pampers bieten mit Stop und Schutz Täschchen am Rücken bis zu 100 % Auslaufschutz die ganze Nacht. Genau wie für Sie, steht die Sicherheit Ihres Babys für uns an erster Stelle. Möchten Sie mehr über die Bestandteile unserer Produkte erfahren? Besuchen Sie uns auf Pampers.de.
+                - generic [ref=e359]:
+                  - generic [ref=e360]: "dm-Artikelnummer: 1679635"
+                  - generic [ref=e361]: "GTIN: 8006540785089"
+            - group [ref=e362]:
+              - generic "Produktmerkmale" [ref=e363] [cursor=pointer]:
+                - generic [ref=e364]: Produktmerkmale
+                - generic [ref=e365]:
+                  - img
+            - group [ref=e366]:
+              - generic "Warnhinweise" [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]: Warnhinweise
+                - generic [ref=e369]:
+                  - img
+              - generic [ref=e374]: Alle Verpackungsmaterialien von Babies und Kindern fernhalten um Erstickungs- und/oder Erdrosselungsgefahr zu vermeiden.
+            - group [ref=e375]:
+              - generic "Inhaltsstoffe" [ref=e376] [cursor=pointer]:
+                - generic [ref=e377]: Inhaltsstoffe
+                - generic [ref=e378]:
+                  - img
+            - group [ref=e379]:
+              - generic "Anschrift des Unternehmens" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: Anschrift des Unternehmens
+                - generic [ref=e382]:
+                  - img
+      - link "Pampers Weitere Produkte von Pampers" [ref=e385] [cursor=pointer]:
+        - /url: /marken/pampers
+        - img "Pampers" [ref=e386]
+        - text: Weitere Produkte von Pampers
+      - generic [ref=e390]:
+        - heading "Passende Beratung" [level=2] [ref=e392]
+        - generic [ref=e395]:
+          - button "Auflistung überspringen" [ref=e396]
+          - generic [ref=e397]:
+            - list [ref=e398]:
+              - listitem [ref=e399]:
+                - link "Windelgröße 5" [ref=e402] [cursor=pointer]:
+                  - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse5-1902162
+                  - generic [ref=e404]:
+                    - img "Windelgröße 5" [ref=e407]
+                    - paragraph [ref=e409]: Windelgröße 5
+              - listitem [ref=e410]:
+                - link "Windelgröße 1" [ref=e413] [cursor=pointer]:
+                  - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse1-1902106
+                  - generic [ref=e415]:
+                    - img "Windelgröße 1" [ref=e418]
+                    - paragraph [ref=e420]: Windelgröße 1
+              - listitem [ref=e421]:
+                - link "Windelgröße 4" [ref=e424] [cursor=pointer]:
+                  - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse4-1902152
+                  - generic [ref=e426]:
+                    - img "Windelgröße 4" [ref=e429]
+                    - paragraph [ref=e431]: Windelgröße 4
+              - listitem [ref=e432]:
+                - link "Die richtige Windel finden, Das musst Du beachten" [ref=e435] [cursor=pointer]:
+                  - /url: /tipps-und-trends/baby-kleinkind/pflege/welche-windeln-81520
+                  - generic [ref=e437]:
+                    - img "Baby mit Windel" [ref=e440]
+                    - generic [ref=e441]:
+                      - paragraph [ref=e442]: Das musst Du beachten
+                      - paragraph [ref=e443]: Die richtige Windel finden
+              - listitem [ref=e444]:
+                - link "Windelgröße 3" [ref=e447] [cursor=pointer]:
+                  - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse3-1902142
+                  - generic [ref=e449]:
+                    - img "Windelgröße 3" [ref=e452]
+                    - paragraph [ref=e454]: Windelgröße 3
+            - button "Nächstes Element anzeigen" [ref=e455] [cursor=pointer]:
+              - img
+          - paragraph: Ende der Auflistung
+      - generic [ref=e456]:
+        - generic [ref=e457]:
+          - heading "Ähnliche Produkte" [level=2] [ref=e460]
+          - generic [ref=e464]:
+            - button "Auflistung überspringen" [ref=e465]
+            - generic [ref=e466]:
+              - list [ref=e467]:
+                - listitem [ref=e468]
+                - listitem [ref=e480]
+                - listitem [ref=e492]
+                - listitem [ref=e504]
+                - listitem [ref=e516]
+                - listitem [ref=e528]
+                - listitem [ref=e540]
+                - listitem [ref=e552]
+                - listitem [ref=e564]
+                - listitem [ref=e576]
+              - button "Nächstes Element anzeigen" [ref=e588] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+        - generic [ref=e589]:
+          - heading "Andere Kunden kauften auch" [level=2] [ref=e592]
+          - generic [ref=e596]:
+            - button "Auflistung überspringen" [ref=e597]
+            - generic [ref=e598]:
+              - list [ref=e599]:
+                - listitem [ref=e600]
+                - listitem [ref=e612]
+                - listitem [ref=e624]
+                - listitem [ref=e636]
+                - listitem [ref=e648]
+                - listitem [ref=e660]
+                - listitem [ref=e672]
+                - listitem [ref=e684]
+                - listitem [ref=e696]
+                - listitem [ref=e708]
+              - button "Nächstes Element anzeigen" [ref=e720] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+      - generic [ref=e724]:
+        - alert [ref=e725]
+        - generic [ref=e726]:
+          - heading "Bewertungen" [level=2] [ref=e728]
+          - generic [ref=e731]:
+            - heading "Durchschnittliche Bewertung der Produktmerkmale" [level=3] [ref=e732]
+            - generic [ref=e733]:
+              - generic [ref=e734]: Saugkraft
+              - generic [ref=e735]: Saugkraft, 4.9 von 5
+              - generic [ref=e743]: "4.9"
+            - generic [ref=e744]:
+              - generic [ref=e745]: Hautverträglichkeit
+              - generic [ref=e746]: Hautverträglichkeit, 4.9 von 5
+              - generic [ref=e754]: "4.9"
+            - generic [ref=e755]:
+              - generic [ref=e756]: Qualität des Produkts
+              - generic [ref=e757]: Qualität des Produkts, 4.9 von 5
+              - generic [ref=e765]: "4.9"
+            - generic [ref=e766]:
+              - generic [ref=e767]: Passform
+              - generic [ref=e769]:
+                - generic [ref=e770]: Passform, 2.0080862533692723 von 3, wobei 1 gleich zu klein ist und 3 gleich zu groß
+                - generic [ref=e775]:
+                  - generic [ref=e776]: zu klein
+                  - generic [ref=e777]: zu groß
+          - generic:
+            - alert [ref=e778]
+            - alert [ref=e779]: 1 to NaN von 11472 Bewertungen.
+  - contentinfo [ref=e784]:
+    - generic [ref=e789]:
+      - generic [ref=e790]:
+        - text: Alle Preisangaben inkl. gesetzl. MwSt., zzgl. Pfand und
+        - button "Versandkosten" [ref=e791] [cursor=pointer]
+      - generic [ref=e792]: (§) Diese Position ist nicht rabattfähig.
+      - generic [ref=e793]: (&) Lieferung in einen dm-Markt nicht möglich.
+      - generic [ref=e794]: (#) Für diese Position erhältst Du keine PAYBACK Punkte.
+    - generic [ref=e800]:
+      - generic [ref=e802]:
+        - img [ref=e805]
+        - heading "Wie gefällt Dir diese Seite?" [level=2] [ref=e808]
+      - generic [ref=e810]:
+        - button "sehr zufriedener Emoji" [ref=e811] [cursor=pointer]:
+          - button "sehr zufriedener Emoji" [ref=e814]
+        - button "zufriedener Emoji" [ref=e819] [cursor=pointer]:
+          - button "zufriedener Emoji" [ref=e822]
+        - button "trauriger Emoji" [ref=e827] [cursor=pointer]:
+          - button "trauriger Emoji" [ref=e830]
+        - button "sehr trauriger Emoji" [ref=e835] [cursor=pointer]:
+          - button "sehr trauriger Emoji" [ref=e838]
+    - generic [ref=e845]:
+      - navigation "Unternehmen" [ref=e849]:
+        - list [ref=e850]:
+          - listitem [ref=e851]:
+            - link "Unternehmen" [ref=e852] [cursor=pointer]:
+              - /url: /unternehmen
+            - text: "|"
+          - listitem [ref=e853]:
+            - link "Jobs" [ref=e854] [cursor=pointer]:
+              - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=f&utm_campaign=forward
+            - text: "|"
+          - listitem [ref=e855]:
+            - link "Services" [ref=e856] [cursor=pointer]:
+              - /url: /services
+            - text: "|"
+          - listitem [ref=e857]:
+            - link "Kundenservice" [ref=e858] [cursor=pointer]:
+              - /url: https://cs.dm.de/csp
+            - text: "|"
+          - listitem [ref=e859]:
+            - link "Geschäftskunden" [ref=e860] [cursor=pointer]:
+              - /url: /dmbusiness
+      - generic [ref=e863]:
+        - heading "dm & Partner" [level=2] [ref=e865]
+        - list [ref=e867]:
+          - listitem [ref=e868]:
+            - link "glückskind" [ref=e871] [cursor=pointer]:
+              - /url: /glueckskind
+          - listitem [ref=e877]:
+            - link "dmbusiness" [ref=e880] [cursor=pointer]:
+              - /url: /dmbusiness
+          - listitem [ref=e886]:
+            - link "dm-med" [ref=e889] [cursor=pointer]:
+              - /url: /dm-med
+      - generic [ref=e897]:
+        - heading "Sicherheit & Datenschutz bei dm" [level=2] [ref=e899]
+        - list [ref=e901]:
+          - listitem [ref=e902]:
+            - link "EHI Geprüfter Online-Shop" [ref=e905] [cursor=pointer]:
+              - /url: https://cert.ehi-siegel.de/webshop/dm-de_4034081?lang=deu
+          - listitem [ref=e912]:
+            - link "Zur Überprüfung der Legalität dieser Website hier klicken" [ref=e915] [cursor=pointer]:
+              - /url: https://versandhandel.dimdi.de/websearch/servlet/Gate;jsessionid=5DCD9D50764415183671D44231D0E6B8?accessid=dimdi_var&term=9b8fec8e83927c82bea283a3dc727926
+      - generic [ref=e923]:
+        - heading "Zahlungsarten bei dm" [level=2] [ref=e925]
+        - list [ref=e927]:
+          - listitem [ref=e928]:
+            - link "Klarna kauf auf Rechnung" [ref=e931] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#rechnung
+          - listitem [ref=e938]:
+            - link "Lastschrift" [ref=e941] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#lastschrift
+          - listitem [ref=e948]:
+            - link "Klarna Sofortüberweisung" [ref=e951] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#sofortueberweisung
+          - listitem [ref=e958]:
+            - link "Paypal" [ref=e961] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#paypal
+          - listitem [ref=e968]:
+            - link "Vorkasse" [ref=e971] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#vorkasse
+          - listitem [ref=e978]:
+            - link "Visa" [ref=e981] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e988]:
+            - link "Mastercard" [ref=e991] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e998]:
+            - link "American Express" [ref=e1001] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e1008]:
+            - link "dm-Geschenkkarte" [ref=e1011] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#geschenkkarte
+          - listitem [ref=e1018]:
+            - link "Apple pay" [ref=e1021] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#apple
+          - listitem [ref=e1028]:
+            - link "google pay" [ref=e1031] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#google
+          - listitem [ref=e1038]:
+            - link "PayPal" [ref=e1041] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback
+          - listitem [ref=e1047]:
+            - link "PAYBACK PAY" [ref=e1050] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback-pay
+      - paragraph [ref=e1059]: Bei dm-med können die Zahlungsarten abweichen.
+      - generic [ref=e1062]:
+        - heading "Mit dm verbinden" [level=2] [ref=e1064]
+        - list [ref=e1066]:
+          - listitem [ref=e1067]:
+            - link "Facebook" [ref=e1070] [cursor=pointer]:
+              - /url: https://de-de.facebook.com/dm.Deutschland
+          - listitem [ref=e1076]:
+            - link "Instagram" [ref=e1079] [cursor=pointer]:
+              - /url: https://www.instagram.com/dm_deutschland/
+          - listitem [ref=e1085]:
+            - link "Kununu" [ref=e1088] [cursor=pointer]:
+              - /url: https://www.kununu.com/de/dm-drogerie-markt
+          - listitem [ref=e1094]:
+            - link "Linkedin" [ref=e1097] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/dm-drogerie-markt-gmbh-co.-kg/?originalSubdomain=de
+          - listitem [ref=e1103]:
+            - link "Xing" [ref=e1106] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/dm
+          - listitem [ref=e1112]:
+            - link "Youtube" [ref=e1115] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/dmdeutschland
+          - listitem [ref=e1121]:
+            - link "Pinterest" [ref=e1124] [cursor=pointer]:
+              - /url: https://www.pinterest.de/dmdeutschland/
+          - listitem [ref=e1130]:
+            - link "TikTok" [ref=e1133] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@dm_deutschland
+          - listitem [ref=e1139]:
+            - link "dm-Newsletter" [ref=e1142] [cursor=pointer]:
+              - /url: /services/dm-newsletter
+          - listitem [ref=e1148]:
+            - link "WhatsApp" [ref=e1151] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029Va5bU8pDDmFW93XhL220
+      - generic [ref=e1159]:
+        - heading "Jetzt die dm-App herunterladen" [level=2] [ref=e1161]
+        - list [ref=e1163]:
+          - listitem [ref=e1164]:
+            - link "dm-App im Apple App Store" [ref=e1167] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/mein-dm/id1186271926
+          - listitem [ref=e1173]:
+            - link "dm-App im Google Play Store" [ref=e1176] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.dm.meindm.android
+      - navigation "Rechtliche Informationen" [ref=e1185]:
+        - list [ref=e1186]:
+          - listitem [ref=e1187]:
+            - link "Impressum dm" [ref=e1188] [cursor=pointer]:
+              - /url: /impressum-43984
+            - text: "|"
+          - listitem [ref=e1189]:
+            - link "Datenschutz dm" [ref=e1190] [cursor=pointer]:
+              - /url: /datenschutz-43978
+            - text: "|"
+          - listitem [ref=e1191]:
+            - link "Einwilligungsverwaltung" [ref=e1192] [cursor=pointer]:
+              - /url: /datenschutz-43978#consent
+            - text: "|"
+          - listitem [ref=e1193]:
+            - link "Nutzungsbedingungen" [ref=e1194] [cursor=pointer]:
+              - /url: /nutzungsbedingungen-v10-3110528
+            - text: "|"
+          - listitem [ref=e1195]:
+            - link "AGB dm" [ref=e1196] [cursor=pointer]:
+              - /url: /agb-43976
+            - text: "|"
+          - listitem [ref=e1197]:
+            - link "Widerrufsbelehrung dm" [ref=e1198] [cursor=pointer]:
+              - /url: /widerrufsbelehrung-44108
+            - text: "|"
+          - listitem [ref=e1199]:
+            - link "Streitschlichtung" [ref=e1200] [cursor=pointer]:
+              - /url: /streitschlichtung-43988
+            - text: "|"
+          - listitem [ref=e1201]:
+            - link "Entsorgung von Elektro-Altgeräten und Batterien" [ref=e1202] [cursor=pointer]:
+              - /url: /elektro-altgeraeteentsorgung-995460
+            - text: "|"
+          - listitem [ref=e1203]:
+            - link "Information zur Barrierefreiheit" [ref=e1204] [cursor=pointer]:
+              - /url: /information-zur-barrierefreiheit-1729910
+            - text: "|"
+          - listitem [ref=e1205]:
+            - link "Meldesystem" [ref=e1206] [cursor=pointer]:
+              - /url: https://dm.integrityline.com/frontpage
+      - navigation "dm-med Hinweis" [ref=e1210]:
+        - list [ref=e1211]:
+          - listitem [ref=e1212]:
+            - link "dm-med Rechtstexte" [ref=e1213] [cursor=pointer]:
+              - /url: /dm-med-rechtstexte-2947738
+      - list [ref=e1217]:
+        - listitem [ref=e1218]:
+          - link "dm" [ref=e1221] [cursor=pointer]:
+            - /url: /

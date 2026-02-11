@@ -1,0 +1,32 @@
+[     595ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     603ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     607ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     614ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     622ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     630ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     637ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     648ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[    1021ms] Uncaught TypeError: Illegal invocation
+    at n (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:23210)
+    at i (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:1831)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:465)
+    at t (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:106)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:226)
+    at t (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:106)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:193)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:198)
+[    1945ms] [WARNING] [001 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1945ms] [WARNING] [002 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1945ms] [WARNING] [003 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1945ms] [WARNING] [004 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1945ms] [WARNING] [005 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1945ms] [WARNING] [006 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [007 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [008 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [009 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [010 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [011 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [012 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [013 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1946ms] [WARNING] [014 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    2152ms] [WARNING] [015 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0

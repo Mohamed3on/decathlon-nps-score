@@ -1,0 +1,37 @@
+[     217ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     240ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     247ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     251ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     254ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     257ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     261ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     266ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     271ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     284ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     290ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     512ms] [ERROR] Error: <svg> attribute width: Expected length, "auto". @ https://assets.dm.de/js-libraries/2026.209.10670/js/libraries-dm.min.js:1
+[     804ms] [WARNING] [001 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [002 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [003 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [004 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [005 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [006 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [007 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     804ms] [WARNING] [008 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     805ms] [WARNING] [009 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     805ms] [WARNING] [010 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     805ms] [WARNING] [011 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     894ms] Uncaught TypeError: Illegal invocation
+    at n (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:23210)
+    at i (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:1831)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:465)
+    at t (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:106)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:226)
+    at t (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:106)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:193)
+    at <anonymous> (https://apps.bazaarvoice.com/analytics/bv-analytics.js:15:198)
+[     962ms] [WARNING] [012 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     962ms] [WARNING] [013 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     962ms] [WARNING] [014 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[     962ms] [WARNING] [015 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0
+[    1549ms] [WARNING] [016 OM-API: ot-api.min.js-Response:, false] @ https://assets.dm.de/om/api/2026.205.7174/om-api.min.js:0

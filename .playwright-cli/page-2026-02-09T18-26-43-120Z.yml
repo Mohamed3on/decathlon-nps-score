@@ -1,0 +1,494 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Hauptnavigation" [ref=e3] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e4] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e5] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e9]:
+      - generic [ref=e10]:
+        - link "Nachhaltigkeit" [ref=e11] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e12] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e13] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e14] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e15] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e16] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - link "PAYBACK" [ref=e19] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e20]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e21]:
+          - link "glückskind" [ref=e22] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e23]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e24]:
+          - link "alverde Magazin" [ref=e25] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e26]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e27]:
+          - link "dmLive" [ref=e28] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e29]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link "dm Startseite" [ref=e34] [cursor=pointer]:
+          - /url: /
+          - img
+        - tooltip "dm Startseite":
+          - generic:
+            - paragraph: dm Startseite
+      - generic [ref=e39]:
+        - combobox "Suchen und finden" [ref=e40]
+        - generic:
+          - generic: Suchen und finden
+          - button "Suche absenden" [ref=e41] [cursor=pointer]:
+            - img
+      - navigation "Haupt" [ref=e42]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - generic [ref=e45]:
+              - link "dm-Märkte" [ref=e46] [cursor=pointer]:
+                - /url: /store
+                - img
+              - tooltip "dm-Märkte":
+                - generic:
+                  - paragraph: dm-Märkte
+          - listitem [ref=e47]:
+            - generic [ref=e48]:
+              - link "Meine Merkliste & Meine Produkte" [ref=e49] [cursor=pointer]:
+                - /url: /shopping-list
+                - img
+              - tooltip "Meine Merkliste & Meine Produkte":
+                - generic:
+                  - paragraph: Meine Merkliste & Meine Produkte
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img
+              - tooltip "Mein Konto":
+                - generic:
+                  - paragraph: Mein Konto
+          - listitem [ref=e53]:
+            - generic [ref=e55]:
+              - link "Warenkorb" [ref=e56] [cursor=pointer]:
+                - /url: /cart
+                - img
+              - tooltip "Warenkorb":
+                - generic:
+                  - paragraph: Warenkorb
+          - listitem
+    - navigation "Kategorien" [ref=e59]:
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Neu" [ref=e62] [cursor=pointer]:
+            - /url: /neu
+        - listitem [ref=e63]:
+          - link "Marken" [ref=e64] [cursor=pointer]:
+            - /url: /marken
+        - listitem [ref=e65]:
+          - link "Make-up" [ref=e66] [cursor=pointer]:
+            - /url: /make-up
+        - listitem [ref=e67]:
+          - link "Pflege & Parfum" [ref=e68] [cursor=pointer]:
+            - /url: /pflege-und-parfum
+        - listitem [ref=e69]:
+          - link "Haare" [ref=e70] [cursor=pointer]:
+            - /url: /haare
+        - listitem [ref=e71]:
+          - link "Gesundheit" [ref=e72] [cursor=pointer]:
+            - /url: /gesundheit
+        - listitem [ref=e73]:
+          - link "Ernährung" [ref=e74] [cursor=pointer]:
+            - /url: /ernaehrung
+        - listitem [ref=e75]:
+          - link "Baby & Kind" [ref=e76] [cursor=pointer]:
+            - /url: /baby-und-kind
+        - listitem [ref=e77]:
+          - link "Haushalt" [ref=e78] [cursor=pointer]:
+            - /url: /haushalt
+        - listitem [ref=e79]:
+          - link "Home & Living" [ref=e80] [cursor=pointer]:
+            - /url: /home-and-living
+        - listitem [ref=e81]:
+          - link "Foto" [ref=e82] [cursor=pointer]:
+            - /url: /foto
+        - listitem [ref=e83]:
+          - link "Tier" [ref=e84] [cursor=pointer]:
+            - /url: /tier
+        - listitem [ref=e85]:
+          - link "Ausverkauf" [ref=e86] [cursor=pointer]:
+            - /url: /ausverkauf
+        - listitem [ref=e87]:
+          - link "Online-Apotheke" [ref=e88] [cursor=pointer]:
+            - /url: /dm-med
+            - generic [ref=e89]:
+              - img
+  - generic [ref=e91]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e92] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - img
+        - paragraph [ref=e95]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e96] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - img
+        - paragraph [ref=e99]:
+          - generic [ref=e100]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e101] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - img
+        - paragraph [ref=e104]: Dauerpreis - dauerhaft günstig einkaufen
+  - img [ref=e108]
+  - main [ref=e115]:
+    - navigation "Breadcrumb" [ref=e119]:
+      - list [ref=e120]:
+        - listitem [ref=e121]:
+          - link "Startseite" [ref=e122] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e123]:
+            - img
+        - listitem [ref=e124]:
+          - link "Baby & Kind" [ref=e125] [cursor=pointer]:
+            - /url: /baby-und-kind
+          - generic [ref=e126]:
+            - img
+        - listitem [ref=e127]:
+          - link "Windeln" [ref=e128] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln
+          - generic [ref=e129]:
+            - img
+        - listitem [ref=e130]:
+          - link "Einwegwindeln" [ref=e131] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln/einwegwindeln
+    - generic [ref=e134]:
+      - heading "Windelgröße 4" [level=1] [ref=e138]
+      - generic [ref=e143]:
+        - heading "Windeln Größe 4 - Für eine sorgenfreie Zeit mit Deinem Baby" [level=2] [ref=e144]
+        - paragraph [ref=e145]:
+          - text: Als Eltern eines nun schon etwas größeren Babys möchtet Ihr nur das Beste für Euer Kind. Eine der wichtigsten Anschaffungen sind Windeln. Doch welche Größe ist die richtige? In dieser Kategorie findest Du
+          - strong [ref=e146]: Windeln in Größe 4
+          - text: ", die perfekt auf die Bedürfnisse Deines Babys abgestimmt sind."
+        - paragraph [ref=e147]:
+          - text: Windeln in Größe 4 eignen sich für Babys mit einem
+          - strong [ref=e148]: Gewicht von 8 bis 15 Kilogramm
+          - text: und sind somit ideal für Kinder
+          - strong [ref=e149]: ab dem sechsten Lebensmonat bis hin zum zweiten Lebensjahr.
+          - text: In dieser Zeit wachsen Babys schnell und benötigen daher regelmäßig neue Windeln. Mit den Windeln der Größe 4 bist Du immer auf der sicheren Seite und kannst Dich auf eine sorgenfreie Zeit mit Deinem Baby freuen.
+        - paragraph [ref=e150]:
+          - text: Ein Problem, das viele Eltern kennen, ist das Auslaufen der Windeln. Doch mit den Windeln in Größe 4 gehört dieses Problem der Vergangenheit an. Auch die
+          - strong [ref=e151]: Passform
+          - text: der Windeln ist perfekt auf die Bedürfnisse von Babys abgestimmt. Durch die
+          - strong [ref=e152]: elastischen Bündchen
+          - text: an den Beinen und am Bauch sitzen die Windeln perfekt und bieten Deinem Baby somit
+          - strong [ref=e153]: höchsten Tragekomfort.
+        - paragraph [ref=e154]:
+          - text: In dieser Kategorie findest Du Windeln der Größe 4 von verschiedenen
+          - strong [ref=e155]: Markenherstellern
+          - text: wie beispielsweise
+          - link "Pampers" [ref=e156] [cursor=pointer]:
+            - /url: /marken/pampers
+          - text: ","
+          - link "babylove" [ref=e157] [cursor=pointer]:
+            - /url: /marken/babylove/babylove-windeln
+          - text: oder dm. Alle Windeln sind von
+          - strong [ref=e158]: hoher Qualität und bieten höchste Sicherheit
+          - text: für Dein Baby. Zudem findest Du hier auch Windeln in verschiedenen
+          - strong [ref=e159]: Packungsgrößen
+          - text: ", sodass Du immer die passende Menge an Windeln zu Hause hast."
+        - paragraph [ref=e160]:
+          - text: Bestelle bequem die Windeln in Größe 4 und sorge für eine sorgenfreie Zeit mit Deinem Baby. Mit den hochwertigen Windeln bist Du immer auf der sicheren Seite und kannst Dich auf eine
+          - strong [ref=e161]: optimale Passform, höchste Saugfähigkeit und beste Hautverträglichkeit
+          - text: verlassen.
+      - generic [ref=e164]:
+        - heading "FAQ:" [level=2] [ref=e166]
+        - generic [ref=e168]:
+          - group [ref=e170]:
+            - generic "Warum sind Windeln in Größe 4 wichtig?" [ref=e171] [cursor=pointer]:
+              - heading "Warum sind Windeln in Größe 4 wichtig?" [level=3] [ref=e173]
+              - generic [ref=e174]:
+                - img
+          - group [ref=e176]:
+            - generic "Welche Merkmale haben Windeln in Größe 4?" [ref=e177] [cursor=pointer]:
+              - heading "Welche Merkmale haben Windeln in Größe 4?" [level=3] [ref=e179]
+              - generic [ref=e180]:
+                - img
+          - group [ref=e182]:
+            - generic "Welche Marken bieten Windeln in Größe 4 an?" [ref=e183] [cursor=pointer]:
+              - heading "Welche Marken bieten Windeln in Größe 4 an?" [level=3] [ref=e185]
+              - generic [ref=e186]:
+                - img
+      - generic [ref=e191]:
+        - button "Auflistung überspringen" [ref=e192]
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - link "Einwegwindeln" [ref=e198] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln
+              - generic [ref=e200]:
+                - img "Einwegwindeln von Rascals und Babylove" [ref=e203]
+                - paragraph [ref=e205]: Einwegwindeln
+          - listitem [ref=e206]:
+            - link "Windelgröße 3" [ref=e209] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse3-1902142
+              - generic [ref=e211]:
+                - img "Windelgröße 3" [ref=e214]
+                - paragraph [ref=e216]: Windelgröße 3
+          - listitem [ref=e217]:
+            - link "Windelgröße 5" [ref=e220] [cursor=pointer]:
+              - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse5-1902162
+              - generic [ref=e222]:
+                - img "Windelgröße 5" [ref=e225]
+                - paragraph [ref=e227]: Windelgröße 5
+        - paragraph: Ende der Auflistung
+      - generic [ref=e230]:
+        - heading "Passende Produktkategorien" [level=2] [ref=e233]
+        - navigation "Passende Produktkategorien" [ref=e234]:
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "Einwegwindeln" [ref=e237] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln
+            - listitem [ref=e238]:
+              - link "Windelgröße 1" [ref=e239] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse1-1902106
+            - listitem [ref=e240]:
+              - link "Windelgröße 2" [ref=e241] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse2-1902132
+            - listitem [ref=e242]:
+              - link "Windelgröße 3" [ref=e243] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse3-1902142
+            - listitem [ref=e244]:
+              - link "Windelgröße 5" [ref=e245] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse5-1902162
+            - listitem [ref=e246]:
+              - link "Windelgröße 6" [ref=e247] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse6-1902172
+            - listitem [ref=e248]:
+              - link "Windelgröße 7" [ref=e249] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse7-2196572
+            - listitem [ref=e250]:
+              - link "Windelgröße 8" [ref=e251] [cursor=pointer]:
+                - /url: /baby-und-kind/windeln/einwegwindeln/windelgroesse8-2196594
+  - contentinfo [ref=e253]:
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - text: Alle Preisangaben inkl. gesetzl. MwSt., zzgl. Pfand und
+        - button "Versandkosten" [ref=e260] [cursor=pointer]
+      - generic [ref=e261]: (§) Diese Position ist nicht rabattfähig.
+      - generic [ref=e262]: (&) Lieferung in einen dm-Markt nicht möglich.
+      - generic [ref=e263]: (#) Für diese Position erhältst Du keine PAYBACK Punkte.
+    - generic [ref=e269]:
+      - generic [ref=e271]:
+        - img [ref=e274]
+        - heading "Wie gefällt Dir diese Seite?" [level=2] [ref=e277]
+      - generic [ref=e279]:
+        - button "sehr zufriedener Emoji" [ref=e280] [cursor=pointer]:
+          - button "sehr zufriedener Emoji" [ref=e283]
+        - button "zufriedener Emoji" [ref=e288] [cursor=pointer]:
+          - button "zufriedener Emoji" [ref=e291]
+        - button "trauriger Emoji" [ref=e296] [cursor=pointer]:
+          - button "trauriger Emoji" [ref=e299]
+        - button "sehr trauriger Emoji" [ref=e304] [cursor=pointer]:
+          - button "sehr trauriger Emoji" [ref=e307]
+    - generic [ref=e314]:
+      - navigation "Unternehmen" [ref=e318]:
+        - list [ref=e319]:
+          - listitem [ref=e320]:
+            - link "Unternehmen" [ref=e321] [cursor=pointer]:
+              - /url: /unternehmen
+            - text: "|"
+          - listitem [ref=e322]:
+            - link "Jobs" [ref=e323] [cursor=pointer]:
+              - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=f&utm_campaign=forward
+            - text: "|"
+          - listitem [ref=e324]:
+            - link "Services" [ref=e325] [cursor=pointer]:
+              - /url: /services
+            - text: "|"
+          - listitem [ref=e326]:
+            - link "Kundenservice" [ref=e327] [cursor=pointer]:
+              - /url: https://cs.dm.de/csp
+            - text: "|"
+          - listitem [ref=e328]:
+            - link "Geschäftskunden" [ref=e329] [cursor=pointer]:
+              - /url: /dmbusiness
+      - generic [ref=e332]:
+        - heading "dm & Partner" [level=2] [ref=e334]
+        - list [ref=e336]:
+          - listitem [ref=e337]:
+            - link "glückskind" [ref=e340] [cursor=pointer]:
+              - /url: /glueckskind
+          - listitem [ref=e346]:
+            - link "dmbusiness" [ref=e349] [cursor=pointer]:
+              - /url: /dmbusiness
+          - listitem [ref=e355]:
+            - link "dm-med" [ref=e358] [cursor=pointer]:
+              - /url: /dm-med
+      - generic [ref=e366]:
+        - heading "Sicherheit & Datenschutz bei dm" [level=2] [ref=e368]
+        - list [ref=e370]:
+          - listitem [ref=e371]:
+            - link "EHI Geprüfter Online-Shop" [ref=e374] [cursor=pointer]:
+              - /url: https://cert.ehi-siegel.de/webshop/dm-de_4034081?lang=deu
+          - listitem [ref=e381]:
+            - link "Zur Überprüfung der Legalität dieser Website hier klicken" [ref=e384] [cursor=pointer]:
+              - /url: https://versandhandel.dimdi.de/websearch/servlet/Gate;jsessionid=5DCD9D50764415183671D44231D0E6B8?accessid=dimdi_var&term=9b8fec8e83927c82bea283a3dc727926
+      - generic [ref=e392]:
+        - heading "Zahlungsarten bei dm" [level=2] [ref=e394]
+        - list [ref=e396]:
+          - listitem [ref=e397]:
+            - link "Klarna kauf auf Rechnung" [ref=e400] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#rechnung
+          - listitem [ref=e407]:
+            - link "Lastschrift" [ref=e410] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#lastschrift
+          - listitem [ref=e417]:
+            - link "Klarna Sofortüberweisung" [ref=e420] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#sofortueberweisung
+          - listitem [ref=e427]:
+            - link "Paypal" [ref=e430] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#paypal
+          - listitem [ref=e437]:
+            - link "Vorkasse" [ref=e440] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#vorkasse
+          - listitem [ref=e447]:
+            - link "Visa" [ref=e450] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e457]:
+            - link "Mastercard" [ref=e460] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e467]:
+            - link "American Express" [ref=e470] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e477]:
+            - link "dm-Geschenkkarte" [ref=e480] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#geschenkkarte
+          - listitem [ref=e487]:
+            - link "Apple pay" [ref=e490] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#apple
+          - listitem [ref=e497]:
+            - link "google pay" [ref=e500] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#google
+          - listitem [ref=e507]:
+            - link "PayPal" [ref=e510] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback
+          - listitem [ref=e516]:
+            - link "PAYBACK PAY" [ref=e519] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback-pay
+      - paragraph [ref=e528]: Bei dm-med können die Zahlungsarten abweichen.
+      - generic [ref=e531]:
+        - heading "Mit dm verbinden" [level=2] [ref=e533]
+        - list [ref=e535]:
+          - listitem [ref=e536]:
+            - link "Facebook" [ref=e539] [cursor=pointer]:
+              - /url: https://de-de.facebook.com/dm.Deutschland
+          - listitem [ref=e545]:
+            - link "Instagram" [ref=e548] [cursor=pointer]:
+              - /url: https://www.instagram.com/dm_deutschland/
+          - listitem [ref=e554]:
+            - link "Kununu" [ref=e557] [cursor=pointer]:
+              - /url: https://www.kununu.com/de/dm-drogerie-markt
+          - listitem [ref=e563]:
+            - link "Linkedin" [ref=e566] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/dm-drogerie-markt-gmbh-co.-kg/?originalSubdomain=de
+          - listitem [ref=e572]:
+            - link "Xing" [ref=e575] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/dm
+          - listitem [ref=e581]:
+            - link "Youtube" [ref=e584] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/dmdeutschland
+          - listitem [ref=e590]:
+            - link "Pinterest" [ref=e593] [cursor=pointer]:
+              - /url: https://www.pinterest.de/dmdeutschland/
+          - listitem [ref=e599]:
+            - link "TikTok" [ref=e602] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@dm_deutschland
+          - listitem [ref=e608]:
+            - link "dm-Newsletter" [ref=e611] [cursor=pointer]:
+              - /url: /services/dm-newsletter
+          - listitem [ref=e617]:
+            - link "WhatsApp" [ref=e620] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029Va5bU8pDDmFW93XhL220
+      - generic [ref=e628]:
+        - heading "Jetzt die dm-App herunterladen" [level=2] [ref=e630]
+        - list [ref=e632]:
+          - listitem [ref=e633]:
+            - link "dm-App im Apple App Store" [ref=e636] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/mein-dm/id1186271926
+          - listitem [ref=e642]:
+            - link "dm-App im Google Play Store" [ref=e645] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.dm.meindm.android
+      - navigation "Rechtliche Informationen" [ref=e654]:
+        - list [ref=e655]:
+          - listitem [ref=e656]:
+            - link "Impressum dm" [ref=e657] [cursor=pointer]:
+              - /url: /impressum-43984
+            - text: "|"
+          - listitem [ref=e658]:
+            - link "Datenschutz dm" [ref=e659] [cursor=pointer]:
+              - /url: /datenschutz-43978
+            - text: "|"
+          - listitem [ref=e660]:
+            - link "Einwilligungsverwaltung" [ref=e661] [cursor=pointer]:
+              - /url: /datenschutz-43978#consent
+            - text: "|"
+          - listitem [ref=e662]:
+            - link "Nutzungsbedingungen" [ref=e663] [cursor=pointer]:
+              - /url: /nutzungsbedingungen-v10-3110528
+            - text: "|"
+          - listitem [ref=e664]:
+            - link "AGB dm" [ref=e665] [cursor=pointer]:
+              - /url: /agb-43976
+            - text: "|"
+          - listitem [ref=e666]:
+            - link "Widerrufsbelehrung dm" [ref=e667] [cursor=pointer]:
+              - /url: /widerrufsbelehrung-44108
+            - text: "|"
+          - listitem [ref=e668]:
+            - link "Streitschlichtung" [ref=e669] [cursor=pointer]:
+              - /url: /streitschlichtung-43988
+            - text: "|"
+          - listitem [ref=e670]:
+            - link "Entsorgung von Elektro-Altgeräten und Batterien" [ref=e671] [cursor=pointer]:
+              - /url: /elektro-altgeraeteentsorgung-995460
+            - text: "|"
+          - listitem [ref=e672]:
+            - link "Information zur Barrierefreiheit" [ref=e673] [cursor=pointer]:
+              - /url: /information-zur-barrierefreiheit-1729910
+            - text: "|"
+          - listitem [ref=e674]:
+            - link "Meldesystem" [ref=e675] [cursor=pointer]:
+              - /url: https://dm.integrityline.com/frontpage
+      - navigation "dm-med Hinweis" [ref=e679]:
+        - list [ref=e680]:
+          - listitem [ref=e681]:
+            - link "dm-med Rechtstexte" [ref=e682] [cursor=pointer]:
+              - /url: /dm-med-rechtstexte-2947738
+      - list [ref=e686]:
+        - listitem [ref=e687]:
+          - link "dm" [ref=e690] [cursor=pointer]:
+            - /url: /

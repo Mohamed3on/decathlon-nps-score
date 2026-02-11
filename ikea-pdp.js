@@ -137,8 +137,8 @@
         if (ratingBtn && !ratingBtn.querySelector('.nps-score-badge')) appendScore(ratingBtn, scoreData);
       }
       if (panel && !document.body.contains(panel)) {
-        const anchor = document.querySelector('.pipf-product-style-picker') || document.querySelector('.pipf-product-variation-section');
-        if (anchor) anchor.before(panel);
+        const ugc = document.querySelector('.js-ugc-container');
+        if (ugc) ugc.after(panel);
       }
 
       obs.observe(document.body, { childList: true, subtree: true });
@@ -150,8 +150,8 @@
       if (ratingBtn) appendScore(ratingBtn, scoreData);
     }
     if (panel) {
-      const anchor = document.querySelector('.pipf-product-style-picker') || document.querySelector('.pipf-product-variation-section');
-      if (anchor) anchor.before(panel);
+      const ugc = document.querySelector('.js-ugc-container');
+      if (ugc) ugc.after(panel);
     }
 
     obs.observe(document.body, { childList: true, subtree: true });

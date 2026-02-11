@@ -1,0 +1,618 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Hauptnavigation" [ref=e3] [cursor=pointer]:
+        - /url: "#widgets"
+      - link "Kategorienavigation" [ref=e4] [cursor=pointer]:
+        - /url: "#categories"
+      - link "Hauptinhalt" [ref=e5] [cursor=pointer]:
+        - /url: "#main"
+    - navigation "Service" [ref=e9]:
+      - generic [ref=e10]:
+        - link "Nachhaltigkeit" [ref=e11] [cursor=pointer]:
+          - /url: /tipps-und-trends/nachhaltigkeit
+        - link "Tipps & Trends" [ref=e12] [cursor=pointer]:
+          - /url: /tipps-und-trends
+        - link "Rezepte" [ref=e13] [cursor=pointer]:
+          - /url: /tipps-und-trends/rezepte
+        - link "Services" [ref=e14] [cursor=pointer]:
+          - /url: /services
+        - link "Kundenservice" [ref=e15] [cursor=pointer]:
+          - /url: https://cs.dm.de/csp?wt_mc=content.sonstige.content.klicktrackingmetanavi
+        - link "Jobs bei dm" [ref=e16] [cursor=pointer]:
+          - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=mn&utm_campaign=forward
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - link "PAYBACK" [ref=e19] [cursor=pointer]:
+            - /url: /services/payback
+            - img "PAYBACK Logo" [ref=e20]
+          - tooltip "PAYBACK":
+            - generic:
+              - paragraph: PAYBACK
+        - generic [ref=e21]:
+          - link "glückskind" [ref=e22] [cursor=pointer]:
+            - /url: /glueckskind
+            - img "glückskind Logo" [ref=e23]
+          - tooltip "glückskind":
+            - generic:
+              - paragraph: glückskind
+        - generic [ref=e24]:
+          - link "alverde Magazin" [ref=e25] [cursor=pointer]:
+            - /url: /unternehmen/alverde-magazin
+            - img "alverde Magazin Logo" [ref=e26]
+          - tooltip "alverde Magazin":
+            - generic:
+              - paragraph: alverde Magazin
+        - generic [ref=e27]:
+          - link "dmLive" [ref=e28] [cursor=pointer]:
+            - /url: /services/services-in-der-dm-app/dmlive-shopping
+            - img "dmLive Logo" [ref=e29]
+          - tooltip "dmLive":
+            - generic:
+              - paragraph: dmLive
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link "dm Startseite" [ref=e34] [cursor=pointer]:
+          - /url: /
+          - img
+        - tooltip "dm Startseite":
+          - generic:
+            - paragraph: dm Startseite
+      - generic [ref=e39]:
+        - combobox "Suchen und finden" [ref=e40]
+        - generic:
+          - generic: Suchen und finden
+          - button "Suche absenden" [ref=e41] [cursor=pointer]:
+            - img
+      - navigation "Haupt" [ref=e42]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - generic [ref=e45]:
+              - link "dm-Märkte" [ref=e46] [cursor=pointer]:
+                - /url: /store
+                - img
+              - tooltip "dm-Märkte":
+                - generic:
+                  - paragraph: dm-Märkte
+          - listitem [ref=e47]:
+            - generic [ref=e48]:
+              - link "Meine Merkliste & Meine Produkte" [ref=e49] [cursor=pointer]:
+                - /url: /shopping-list
+                - img
+              - tooltip "Meine Merkliste & Meine Produkte":
+                - generic:
+                  - paragraph: Meine Merkliste & Meine Produkte
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img
+              - tooltip "Mein Konto":
+                - generic:
+                  - paragraph: Mein Konto
+          - listitem [ref=e53]:
+            - generic [ref=e55]:
+              - link "Warenkorb" [ref=e56] [cursor=pointer]:
+                - /url: /cart
+                - img
+              - tooltip "Warenkorb":
+                - generic:
+                  - paragraph: Warenkorb
+          - listitem
+    - navigation "Kategorien" [ref=e59]:
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Neu" [ref=e62] [cursor=pointer]:
+            - /url: /neu
+        - listitem [ref=e63]:
+          - link "Marken" [ref=e64] [cursor=pointer]:
+            - /url: /marken
+        - listitem [ref=e65]:
+          - link "Make-up" [ref=e66] [cursor=pointer]:
+            - /url: /make-up
+        - listitem [ref=e67]:
+          - link "Pflege & Parfum" [ref=e68] [cursor=pointer]:
+            - /url: /pflege-und-parfum
+        - listitem [ref=e69]:
+          - link "Haare" [ref=e70] [cursor=pointer]:
+            - /url: /haare
+        - listitem [ref=e71]:
+          - link "Gesundheit" [ref=e72] [cursor=pointer]:
+            - /url: /gesundheit
+        - listitem [ref=e73]:
+          - link "Ernährung" [ref=e74] [cursor=pointer]:
+            - /url: /ernaehrung
+        - listitem [ref=e75]:
+          - link "Baby & Kind" [ref=e76] [cursor=pointer]:
+            - /url: /baby-und-kind
+        - listitem [ref=e77]:
+          - link "Haushalt" [ref=e78] [cursor=pointer]:
+            - /url: /haushalt
+        - listitem [ref=e79]:
+          - link "Home & Living" [ref=e80] [cursor=pointer]:
+            - /url: /home-and-living
+        - listitem [ref=e81]:
+          - link "Foto" [ref=e82] [cursor=pointer]:
+            - /url: /foto
+        - listitem [ref=e83]:
+          - link "Tier" [ref=e84] [cursor=pointer]:
+            - /url: /tier
+        - listitem [ref=e85]:
+          - link "Ausverkauf" [ref=e86] [cursor=pointer]:
+            - /url: /ausverkauf
+        - listitem [ref=e87]:
+          - link "Online-Apotheke" [ref=e88] [cursor=pointer]:
+            - /url: /dm-med
+            - generic [ref=e89]:
+              - img
+  - generic [ref=e91]:
+    - link "Kostenloser Versand ab 59 € mit dm-Konto" [ref=e92] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand?origin=uvp
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - img
+        - paragraph [ref=e95]: Kostenloser Versand ab 59 € mit dm-Konto
+    - link "Online bestellen & nach 2 Stunden abholen*" [ref=e96] [cursor=pointer]:
+      - /url: /services/onlineshop/lieferung-und-versand/expressabholung-79146?origin=uvp
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - img
+        - paragraph [ref=e99]:
+          - generic [ref=e100]: Online bestellen & nach 2 Stunden abholen*
+    - link "Dauerpreis - dauerhaft günstig einkaufen" [ref=e101] [cursor=pointer]:
+      - /url: /services/services-im-markt/dm-dauerpreis?origin=uvp
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - img
+        - paragraph [ref=e104]: Dauerpreis - dauerhaft günstig einkaufen
+  - img [ref=e108]
+  - main [ref=e115]:
+    - navigation "Breadcrumb" [ref=e119]:
+      - list [ref=e120]:
+        - listitem [ref=e121]:
+          - link "Startseite" [ref=e122] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e123]:
+            - img
+        - listitem [ref=e124]:
+          - link "Baby & Kind" [ref=e125] [cursor=pointer]:
+            - /url: /baby-und-kind
+          - generic [ref=e126]:
+            - img
+        - listitem [ref=e127]:
+          - link "Windeln" [ref=e128] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln
+          - generic [ref=e129]:
+            - img
+        - listitem [ref=e130]:
+          - link "Windel Pants" [ref=e131] [cursor=pointer]:
+            - /url: /baby-und-kind/windeln/windel-pants
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - heading "babylove Baby Pants Premium Junior Gr. 5 (13-18 kg), 20 St" [level=1] [ref=e137]:
+              - link "babylove" [ref=e139] [cursor=pointer]:
+                - /url: /marken/babylove
+              - text: Baby Pants Premium Junior Gr. 5 (13-18 kg), 20 St
+            - link "3.9 von 5 Sternen bei 823 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e142] [cursor=pointer]:
+              - /url: "#dm_bv_container"
+              - generic "3.9 von 5 Sternen bei 823 Bewertungen, Wähle um zu den Produktbewertungen zu gelangen" [ref=e143]:
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - img [ref=e146]
+                  - img [ref=e147]
+                  - img [ref=e150]
+                  - img [ref=e151]
+                - generic [ref=e152]: "3.9"
+                - generic [ref=e153]: (823 Bewertungen)
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - paragraph [ref=e157]: Ohne Parfum
+            - generic [ref=e160]:
+              - generic [ref=e161] [cursor=pointer]: Windelgröße
+              - combobox "Windelgröße" [ref=e162] [cursor=pointer]:
+                - option "Größe 5" [selected]
+                - option "Größe 6"
+                - option "Größe 7"
+                - option "Größe 8"
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e166]:
+                  - generic [ref=e168]:
+                    - button "Anzahl reduzieren" [disabled] [ref=e169]:
+                      - img
+                    - combobox "Anzahl ändern" [disabled] [ref=e170]:
+                      - option "1" [selected]
+                    - button "Anzahl erhöhen" [disabled] [ref=e171]:
+                      - img
+                  - generic [ref=e173]:
+                    - generic [ref=e175]: 4,45 €
+                    - generic [ref=e176]:
+                      - generic [ref=e177]: 20 St (0,22 € je 1 St)
+                      - generic [ref=e178]:
+                        - text: inkl. MwSt. zzgl.
+                        - button "Versand" [ref=e179] [cursor=pointer]
+                - button "dm-Dauerpreis nicht erhöht seit 10.02.2023" [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181]:
+                    - img
+                    - generic [ref=e182]:
+                      - generic [ref=e183]: dm-Dauerpreis
+                      - text: nicht erhöht seit 10.02.2023
+                - button "In den Warenkorb" [disabled] [ref=e186]:
+                  - generic [ref=e187]:
+                    - img
+                  - generic [ref=e188]: In den Warenkorb
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - img
+                  - text: Kostenloser Versand ab 59 € mit dm-Konto
+                - generic [ref=e197]:
+                  - img
+                  - text: Kostenlose Rückgabe auch im dm-Markt
+                - generic [ref=e198]:
+                  - img
+                  - text: Kauf auf Rechnung möglich
+            - generic [ref=e199]:
+              - img
+              - generic [ref=e200]: Du erhältst 2 PAYBACK °Punkte
+            - link "Unser Versprechen, immer günstig einzukaufen, Mehr zur dm Dauerpreis-Garantie" [ref=e208] [cursor=pointer]:
+              - /url: /services/services-im-markt/dm-dauerpreis
+              - generic [ref=e211]:
+                - heading "Unser Versprechen, immer günstig einzukaufen" [level=2] [ref=e212]
+                - paragraph [ref=e215]: Mehr zur dm Dauerpreis-Garantie
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - img "Marke von dm Grafik" [ref=e219]
+              - button "dm glückskind 66 % Weiterempfehlung Babylove Pants Premium Größe 5 94 Teilnehmer August 2025" [ref=e220] [cursor=pointer]:
+                - img "dm glückskind 66 % Weiterempfehlung Babylove Pants Premium Größe 5 94 Teilnehmer August 2025" [ref=e221]
+            - generic [ref=e222]:
+              - button "Auflistung überspringen" [ref=e223]
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e228] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e229]
+                - listitem [ref=e230]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e232] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e233]
+                - listitem [ref=e234]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e236] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e237]
+                - listitem [ref=e238]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e240] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e241]
+                - listitem [ref=e242]:
+                  - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e244] [cursor=pointer]:
+                    - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e245]
+              - paragraph: Ende der Auflistung
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e248] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e249]
+              - listitem [ref=e250]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e251] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e252]
+              - listitem [ref=e253]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e254] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e255]
+              - listitem [ref=e256]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e257] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e258]
+              - listitem [ref=e259]:
+                - button "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e260] [cursor=pointer]:
+                  - img "Baby Pants Premium Junior Gr. 5 (13-18 kg) babylove" [ref=e261]
+            - generic [ref=e262]:
+              - button "Produkt merken" [ref=e263] [cursor=pointer]:
+                - img [ref=e265]
+              - button "Produkt teilen" [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]:
+                  - img
+        - generic [ref=e269]:
+          - heading "Infos zum Produkt" [level=2] [ref=e271]
+          - generic [ref=e272]:
+            - group [ref=e273]:
+              - generic "Produktbeschreibung" [ref=e274] [cursor=pointer]:
+                - generic [ref=e275]: Produktbeschreibung
+                - generic [ref=e276]:
+                  - img
+              - generic [ref=e278]:
+                - list [ref=e280]:
+                  - listitem [ref=e281]: Windelhöschen für aktive Kids
+                  - listitem [ref=e282]: Einfaches An- und Ausziehen
+                  - listitem [ref=e283]: Bis zu 12 Stunden Schutz
+                  - listitem [ref=e284]: Optimale Bewegungsfreiheit durch Rundum-Stretch
+                  - listitem [ref=e285]: Ohne Lotionen, Parfümen und Naturlatex
+                - generic [ref=e288]: "Die Premium-Pants in der Größe 5 Junior (13-18 kg) von babylove sind perfekt auf die Bedürfnisse aktiver Kinder abgestimmt, die sich frei bewegen und beim Wickeln nicht mehr hinlegen möchten. Mit bis zu 12 Stunden zuverlässigem Auslaufschutz bieten sie Eltern und Kindern ein beruhigendes Gefühl. Der flexible Sitz und das innovative ComfortFit mit sicheren Beinabschlüssen und einem breiteren Saugkern garantieren optimalen Schutz und Komfort. Atmungsaktive Materialien fördern ein angenehmes Hautgefühl, während das CapturePocket TM zusätzlichen Schutz am Rücken gewährleistet. Das Wechseln der Pants wird durch die praktischen Seitennähte zum Kinderspiel: Einfach aufreißen, zusammenrollen und mit dem Verschluss-Streifen sicher entsorgen."
+                - generic [ref=e290]:
+                  - generic [ref=e291]: "dm-Artikelnummer: 1577914"
+                  - generic [ref=e292]: "GTIN: 4067796080315"
+            - group [ref=e293]:
+              - generic "Produktmerkmale" [ref=e294] [cursor=pointer]:
+                - generic [ref=e295]: Produktmerkmale
+                - generic [ref=e296]:
+                  - img
+            - group [ref=e297]:
+              - generic "Infos zur Nachhaltigkeit des Produktes" [ref=e298] [cursor=pointer]:
+                - generic [ref=e299]: Infos zur Nachhaltigkeit des Produktes
+                - generic [ref=e300]:
+                  - img
+            - group [ref=e301]:
+              - generic "Anschrift des Unternehmens" [ref=e302] [cursor=pointer]:
+                - generic [ref=e303]: Anschrift des Unternehmens
+                - generic [ref=e304]:
+                  - img
+            - group [ref=e305]:
+              - generic "Hergestellt in" [ref=e306] [cursor=pointer]:
+                - generic [ref=e307]: Hergestellt in
+                - generic [ref=e308]:
+                  - img
+      - link "babylove Weitere Produkte von babylove" [ref=e311] [cursor=pointer]:
+        - /url: /marken/babylove
+        - img "babylove" [ref=e312]
+        - text: Weitere Produkte von babylove
+      - generic [ref=e316]:
+        - heading "Passende Beratung" [level=2] [ref=e318]
+        - generic [ref=e321]:
+          - button "Auflistung überspringen" [ref=e322]
+          - list [ref=e324]:
+            - listitem [ref=e325]:
+              - 'link "Töpfchentraining – Schritte zum Sauberwerden, Tschüss Windel – hallo Töpfchen: Die besten Tipps" [ref=e328] [cursor=pointer]':
+                - /url: /tipps-und-trends/baby-kleinkind/entwicklung/toepfchentraining-53748
+                - generic [ref=e330]:
+                  - img "Eine Person mit lockigem Haar und weißem Oberteil kniet auf dem Boden eines Badezimmers und hält die Hände eines Kleinkindes, das auf einem grauen Töpfchen sitzt und einen gestreiften Einteiler trägt, während im Hintergrund eine Duschkabine und ein Fenster zu sehen sind" [ref=e333]
+                  - generic [ref=e334]:
+                    - paragraph [ref=e335]: "Tschüss Windel – hallo Töpfchen: Die besten Tipps"
+                    - paragraph [ref=e336]: Töpfchentraining – Schritte zum Sauberwerden
+            - listitem [ref=e337]:
+              - link "Zehn Tipps bei Bettnässen, Tagebuch, Windelslips und Lesetipps" [ref=e340] [cursor=pointer]:
+                - /url: /tipps-und-trends/kind/entwicklung-foerderung/tipps-gegen-bettnaessen-57914
+                - generic [ref=e342]:
+                  - img "Schlafendes Kind liegt im Bett" [ref=e345]
+                  - generic [ref=e346]:
+                    - paragraph [ref=e347]: Tagebuch, Windelslips und Lesetipps
+                    - paragraph [ref=e348]: Zehn Tipps bei Bettnässen
+          - paragraph: Ende der Auflistung
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - heading "Ähnliche Produkte" [level=2] [ref=e353]
+          - generic [ref=e357]:
+            - button "Auflistung überspringen" [ref=e358]
+            - generic [ref=e359]:
+              - list [ref=e360]:
+                - listitem [ref=e361]
+                - listitem [ref=e373]
+                - listitem [ref=e385]
+                - listitem [ref=e397]
+                - listitem [ref=e409]
+                - listitem [ref=e421]
+                - listitem [ref=e433]
+                - listitem [ref=e445]
+                - listitem [ref=e457]
+                - listitem [ref=e469]
+              - button "Nächstes Element anzeigen" [ref=e481] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+        - generic [ref=e482]:
+          - heading "Andere Kunden kauften auch" [level=2] [ref=e485]
+          - generic [ref=e489]:
+            - button "Auflistung überspringen" [ref=e490]
+            - generic [ref=e491]:
+              - list [ref=e492]:
+                - listitem [ref=e493]
+                - listitem [ref=e505]
+                - listitem [ref=e517]
+                - listitem [ref=e529]
+                - listitem [ref=e541]
+                - listitem [ref=e553]
+                - listitem [ref=e565]
+                - listitem [ref=e577]
+                - listitem [ref=e589]
+                - listitem [ref=e601]
+              - button "Nächstes Element anzeigen" [ref=e613] [cursor=pointer]:
+                - img
+            - paragraph: Ende der Auflistung
+      - generic [ref=e617]:
+        - alert [ref=e618]
+        - generic [ref=e619]:
+          - heading "Bewertungen" [level=2] [ref=e621]
+          - generic:
+            - alert [ref=e624]
+            - alert [ref=e625]
+  - contentinfo [ref=e630]:
+    - generic [ref=e635]:
+      - generic [ref=e636]:
+        - text: Alle Preisangaben inkl. gesetzl. MwSt., zzgl. Pfand und
+        - button "Versandkosten" [ref=e637] [cursor=pointer]
+      - generic [ref=e638]: (§) Diese Position ist nicht rabattfähig.
+      - generic [ref=e639]: (&) Lieferung in einen dm-Markt nicht möglich.
+      - generic [ref=e640]: (#) Für diese Position erhältst Du keine PAYBACK Punkte.
+    - generic [ref=e646]:
+      - generic [ref=e648]:
+        - img [ref=e651]
+        - heading "Wie gefällt Dir diese Seite?" [level=2] [ref=e654]
+      - generic [ref=e656]:
+        - button "sehr zufriedener Emoji" [ref=e657] [cursor=pointer]:
+          - button "sehr zufriedener Emoji" [ref=e660]
+        - button "zufriedener Emoji" [ref=e665] [cursor=pointer]:
+          - button "zufriedener Emoji" [ref=e668]
+        - button "trauriger Emoji" [ref=e673] [cursor=pointer]:
+          - button "trauriger Emoji" [ref=e676]
+        - button "sehr trauriger Emoji" [ref=e681] [cursor=pointer]:
+          - button "sehr trauriger Emoji" [ref=e684]
+    - generic [ref=e691]:
+      - navigation "Unternehmen" [ref=e695]:
+        - list [ref=e696]:
+          - listitem [ref=e697]:
+            - link "Unternehmen" [ref=e698] [cursor=pointer]:
+              - /url: /unternehmen
+            - text: "|"
+          - listitem [ref=e699]:
+            - link "Jobs" [ref=e700] [cursor=pointer]:
+              - /url: https://www.dm-jobs.de/job-listing/?utm_source=shop&utm_medium=f&utm_campaign=forward
+            - text: "|"
+          - listitem [ref=e701]:
+            - link "Services" [ref=e702] [cursor=pointer]:
+              - /url: /services
+            - text: "|"
+          - listitem [ref=e703]:
+            - link "Kundenservice" [ref=e704] [cursor=pointer]:
+              - /url: https://cs.dm.de/csp
+            - text: "|"
+          - listitem [ref=e705]:
+            - link "Geschäftskunden" [ref=e706] [cursor=pointer]:
+              - /url: /dmbusiness
+      - generic [ref=e709]:
+        - heading "dm & Partner" [level=2] [ref=e711]
+        - list [ref=e713]:
+          - listitem [ref=e714]:
+            - link "glückskind" [ref=e717] [cursor=pointer]:
+              - /url: /glueckskind
+          - listitem [ref=e723]:
+            - link "dmbusiness" [ref=e726] [cursor=pointer]:
+              - /url: /dmbusiness
+          - listitem [ref=e732]:
+            - link "dm-med" [ref=e735] [cursor=pointer]:
+              - /url: /dm-med
+      - generic [ref=e743]:
+        - heading "Sicherheit & Datenschutz bei dm" [level=2] [ref=e745]
+        - list [ref=e747]:
+          - listitem [ref=e748]:
+            - link "EHI Geprüfter Online-Shop" [ref=e751] [cursor=pointer]:
+              - /url: https://cert.ehi-siegel.de/webshop/dm-de_4034081?lang=deu
+          - listitem [ref=e758]:
+            - link "Zur Überprüfung der Legalität dieser Website hier klicken" [ref=e761] [cursor=pointer]:
+              - /url: https://versandhandel.dimdi.de/websearch/servlet/Gate;jsessionid=5DCD9D50764415183671D44231D0E6B8?accessid=dimdi_var&term=9b8fec8e83927c82bea283a3dc727926
+      - generic [ref=e769]:
+        - heading "Zahlungsarten bei dm" [level=2] [ref=e771]
+        - list [ref=e773]:
+          - listitem [ref=e774]:
+            - link "Klarna kauf auf Rechnung" [ref=e777] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#rechnung
+          - listitem [ref=e784]:
+            - link "Lastschrift" [ref=e787] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#lastschrift
+          - listitem [ref=e794]:
+            - link "Klarna Sofortüberweisung" [ref=e797] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#sofortueberweisung
+          - listitem [ref=e804]:
+            - link "Paypal" [ref=e807] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#paypal
+          - listitem [ref=e814]:
+            - link "Vorkasse" [ref=e817] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#vorkasse
+          - listitem [ref=e824]:
+            - link "Visa" [ref=e827] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e834]:
+            - link "Mastercard" [ref=e837] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e844]:
+            - link "American Express" [ref=e847] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#kreditkarte
+          - listitem [ref=e854]:
+            - link "dm-Geschenkkarte" [ref=e857] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#geschenkkarte
+          - listitem [ref=e864]:
+            - link "Apple pay" [ref=e867] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#apple
+          - listitem [ref=e874]:
+            - link "google pay" [ref=e877] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#google
+          - listitem [ref=e884]:
+            - link "PayPal" [ref=e887] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback
+          - listitem [ref=e893]:
+            - link "PAYBACK PAY" [ref=e896] [cursor=pointer]:
+              - /url: /services/onlineshop/zahlungsarten#payback-pay
+      - paragraph [ref=e905]: Bei dm-med können die Zahlungsarten abweichen.
+      - generic [ref=e908]:
+        - heading "Mit dm verbinden" [level=2] [ref=e910]
+        - list [ref=e912]:
+          - listitem [ref=e913]:
+            - link "Facebook" [ref=e916] [cursor=pointer]:
+              - /url: https://de-de.facebook.com/dm.Deutschland
+          - listitem [ref=e922]:
+            - link "Instagram" [ref=e925] [cursor=pointer]:
+              - /url: https://www.instagram.com/dm_deutschland/
+          - listitem [ref=e931]:
+            - link "Kununu" [ref=e934] [cursor=pointer]:
+              - /url: https://www.kununu.com/de/dm-drogerie-markt
+          - listitem [ref=e940]:
+            - link "Linkedin" [ref=e943] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/dm-drogerie-markt-gmbh-co.-kg/?originalSubdomain=de
+          - listitem [ref=e949]:
+            - link "Xing" [ref=e952] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/dm
+          - listitem [ref=e958]:
+            - link "Youtube" [ref=e961] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/dmdeutschland
+          - listitem [ref=e967]:
+            - link "Pinterest" [ref=e970] [cursor=pointer]:
+              - /url: https://www.pinterest.de/dmdeutschland/
+          - listitem [ref=e976]:
+            - link "TikTok" [ref=e979] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@dm_deutschland
+          - listitem [ref=e985]:
+            - link "dm-Newsletter" [ref=e988] [cursor=pointer]:
+              - /url: /services/dm-newsletter
+          - listitem [ref=e994]:
+            - link "WhatsApp" [ref=e997] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029Va5bU8pDDmFW93XhL220
+      - generic [ref=e1005]:
+        - heading "Jetzt die dm-App herunterladen" [level=2] [ref=e1007]
+        - list [ref=e1009]:
+          - listitem [ref=e1010]:
+            - link "dm-App im Apple App Store" [ref=e1013] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/mein-dm/id1186271926
+          - listitem [ref=e1019]:
+            - link "dm-App im Google Play Store" [ref=e1022] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.dm.meindm.android
+      - navigation "Rechtliche Informationen" [ref=e1031]:
+        - list [ref=e1032]:
+          - listitem [ref=e1033]:
+            - link "Impressum dm" [ref=e1034] [cursor=pointer]:
+              - /url: /impressum-43984
+            - text: "|"
+          - listitem [ref=e1035]:
+            - link "Datenschutz dm" [ref=e1036] [cursor=pointer]:
+              - /url: /datenschutz-43978
+            - text: "|"
+          - listitem [ref=e1037]:
+            - link "Einwilligungsverwaltung" [ref=e1038] [cursor=pointer]:
+              - /url: /datenschutz-43978#consent
+            - text: "|"
+          - listitem [ref=e1039]:
+            - link "Nutzungsbedingungen" [ref=e1040] [cursor=pointer]:
+              - /url: /nutzungsbedingungen-v10-3110528
+            - text: "|"
+          - listitem [ref=e1041]:
+            - link "AGB dm" [ref=e1042] [cursor=pointer]:
+              - /url: /agb-43976
+            - text: "|"
+          - listitem [ref=e1043]:
+            - link "Widerrufsbelehrung dm" [ref=e1044] [cursor=pointer]:
+              - /url: /widerrufsbelehrung-44108
+            - text: "|"
+          - listitem [ref=e1045]:
+            - link "Streitschlichtung" [ref=e1046] [cursor=pointer]:
+              - /url: /streitschlichtung-43988
+            - text: "|"
+          - listitem [ref=e1047]:
+            - link "Entsorgung von Elektro-Altgeräten und Batterien" [ref=e1048] [cursor=pointer]:
+              - /url: /elektro-altgeraeteentsorgung-995460
+            - text: "|"
+          - listitem [ref=e1049]:
+            - link "Information zur Barrierefreiheit" [ref=e1050] [cursor=pointer]:
+              - /url: /information-zur-barrierefreiheit-1729910
+            - text: "|"
+          - listitem [ref=e1051]:
+            - link "Meldesystem" [ref=e1052] [cursor=pointer]:
+              - /url: https://dm.integrityline.com/frontpage
+      - navigation "dm-med Hinweis" [ref=e1056]:
+        - list [ref=e1057]:
+          - listitem [ref=e1058]:
+            - link "dm-med Rechtstexte" [ref=e1059] [cursor=pointer]:
+              - /url: /dm-med-rechtstexte-2947738
+      - list [ref=e1063]:
+        - listitem [ref=e1064]:
+          - link "dm" [ref=e1067] [cursor=pointer]:
+            - /url: /
